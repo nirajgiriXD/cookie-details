@@ -28,20 +28,14 @@
 | IDE | .doubleclick.net | Ad Personalization and Conversion Tracking | Used in the context of targeted advertising  by the entities defined by the domains of the cookies. | Decrease tracking efficiency for ad targeting and therefore should impact conversions. |
 | uid | .cretio.com | Ad Personalization and Conversion Tracking | Used in the context of targeted advertising  by the entities defined by the domains of the cookies. | Decrease tracking efficiency for ad targeting and therefore should impact conversions. |
 | data-ttd | .hb.yahoo.net | Ad Personalization and Conversion Tracking | Used in the context of targeted advertising  by the entities defined by the domains of the cookies. | Decrease tracking efficiency for ad targeting and therefore should impact conversions. |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
+| CLID | www.clarity.ms | User Engagement and Analytics | Used for behavioral analytics that turns user data into visual insights and shows which parts of the website get the most engagement. | Prevent site owners from gathering usage stats for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on. |
+| s_vi_x7Cmgx7Ebx23jkxxx23zkx7Dz | .2o7.net | User Engagement and Analytics | Used for behavioral analytics that turns user data into visual insights and shows which parts of the website get the most engagement. | Prevent site owners from gathering usage stats for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on. |
+| SRM_B | c.bing.com | Advertisement | Used for advertising, site analytics, and other operational purposes. | Diminish browsing experience, including encountering more generic advertisements, and limited personalization. |
+| ANONCHK | c.clarity.ms | Ad Personalization | Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization. | Will lead to inaccurate click tracking, limited personalized content, and reduced reporting accuracy. |
+| MR | c.bing.com | Ad Personalization | Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization. | Will lead to inaccurate click tracking, limited personalized content, and reduced reporting accuracy. |
+| MR | c.bing.com | Ad Personalization | Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization. | Will lead to inaccurate click tracking, limited personalized content, and reduced reporting accuracy. |
+| SM | .c.clarity.ms | Cross-Device User Identification | Used to synchronize the ID across many different Microsoft domains to enable user tracking. | prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics. |
+| SM | c.clarity.ms | Cross-Device User Identification | Used to synchronize the ID across many different Microsoft domains to enable user tracking. | prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics. |
+| MUID | .clarity.ms | Cross-Device User Identification | Used to synchronize the ID across many different Microsoft domains to enable user tracking. | prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics. |
+| MUID | .bing.com | Cross-Device User Identification | Used to synchronize the ID across many different Microsoft domains to enable user tracking. | prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics. |
 | --- | --- | --- | --- | --- |
