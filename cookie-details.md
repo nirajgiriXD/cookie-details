@@ -19,4 +19,31 @@
 | univ_id | .openx.net | Ad Personalization | Used to identify the user devices on repeat visits across different sites that use the same ad network. | Reduce the effectiveness of ad targeting based on user profiles and previous visits. |
 | KRTBCOOKIE_XXX | .pubmatic.com | Ad Personalization | Used to identify the user devices on repeat visits across different sites that use the same ad network. | Reduce the effectiveness of ad targeting based on user profiles and previous visits. |
 | pubsyncexp | .pubmatic.com | Real-Time Bidding & Advertiser Matching | Sets a unique ID for visitor. Third-party advertisers use it to target them with relevant ads. Third-party advertisement hubs provide this pairing service, facilitating real-time bidding for advertisers. | Add complications with real-time ad bidding system and advertiser-to-user matching |
-
+| personalization_id | .twitter.com | Social Media-Integrated Advertising | Sets a unique value by which Twitter identifies users. The collected information is used to personalize Twitter services, including ads, trends, and suggestions. | Impacts Twitter by preventing it from gathering user information from the site the user is visiting. |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
