@@ -20,16 +20,14 @@
 | KRTBCOOKIE_XXX | .pubmatic.com | Ad Personalization | Used to identify the user devices on repeat visits across different sites that use the same ad network. | Reduce the effectiveness of ad targeting based on user profiles and previous visits. |
 | pubsyncexp | .pubmatic.com | Real-Time Bidding & Advertiser Matching | Sets a unique ID for visitor. Third-party advertisers use it to target them with relevant ads. Third-party advertisement hubs provide this pairing service, facilitating real-time bidding for advertisers. | Add complications with real-time ad bidding system and advertiser-to-user matching |
 | personalization_id | .twitter.com | Social Media-Integrated Advertising | Sets a unique value by which Twitter identifies users. The collected information is used to personalize Twitter services, including ads, trends, and suggestions. | Impacts Twitter by preventing it from gathering user information from the site the user is visiting. |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
+| KRTBCOOKIE_XXX | .pubmatic.com | Cross-Device User Identification | To track user activity and show targeted ads. They contain a unique ID that identifies the user's device and helps recognize returning users for a personalized browsing experience across different devices. | Prevent the identification of users across devices, and consequently impact the effectiveness of cross-device advertising campaigns. |
+| anj | .adnxs.com | Cross-Device User Identification | To track user activity and show targeted ads. They contain a unique ID that identifies the user's device and helps recognize returning users for a personalized browsing experience across different devices. | Prevent the identification of users across devices, and consequently impact the effectiveness of cross-device advertising campaigns. |
+| uid | .criteo.com | Cross-Device User Identification | To track user activity and show targeted ads. They contain a unique ID that identifies the user's device and helps recognize returning users for a personalized browsing experience across different devices. | Prevent the identification of users across devices, and consequently impact the effectiveness of cross-device advertising campaigns. |
+| IDE | .doubleclick.net | Ad Campaign Analysis and Optimization | Used for targeting, analysis, and optimization of advertising campaigns powered by the DoubleClick/Google Marketing Suite. | Limits the ability to analyze and optimize ad campaigns. |
+| NID | .google.com | Ad Personalization and Conversion Tracking | Used in the context of targeted advertising  by the entities defined by the domains of the cookies. | Decrease tracking efficiency for ad targeting and therefore should impact conversions. |
+| IDE | .doubleclick.net | Ad Personalization and Conversion Tracking | Used in the context of targeted advertising  by the entities defined by the domains of the cookies. | Decrease tracking efficiency for ad targeting and therefore should impact conversions. |
+| uid | .cretio.com | Ad Personalization and Conversion Tracking | Used in the context of targeted advertising  by the entities defined by the domains of the cookies. | Decrease tracking efficiency for ad targeting and therefore should impact conversions. |
+| data-ttd | .hb.yahoo.net | Ad Personalization and Conversion Tracking | Used in the context of targeted advertising  by the entities defined by the domains of the cookies. | Decrease tracking efficiency for ad targeting and therefore should impact conversions. |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
