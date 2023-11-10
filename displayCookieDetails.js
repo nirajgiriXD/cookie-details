@@ -50,25 +50,25 @@ async function getCookieDetailsHTML() {
 							outputHTML += `
                                 <ul class="list-inside ml-4 p-3">
                                     <li>
-                                        <span style="width:100px;">
+                                        <span style="display: inline-block; width:100px;">
                                             <strong>Category:</strong>
                                         </span>
                                         ${cookieDetail["Category"]}
                                     </li>
                                     <li>
-                                        <span style="width:100px;">
+                                        <span style="display: inline-block; width:100px;">
                                             <strong>Purpose:</strong>
                                         </span>
                                         ${cookieDetail["Purpose"]}
                                     </li>
                                     <li>
-                                        <span style="width:100px;">
+                                        <span style="display: inline-block; width:100px;">
                                             <strong>Impact:</strong>
                                         </span>
                                         ${cookieDetail["Impact"]}
                                     </li>
                                     <li>
-                                        <span style="width:100px;">
+                                        <span style="display: inline-block; width:100px;">
                                             <strong>Website:</strong>
                                         </span>
                                         <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
@@ -80,25 +80,25 @@ async function getCookieDetailsHTML() {
 						outputHTML += `
                             <ul class="list-inside ml-4 p-3">
                                 <li>
-                                    <span style="width:100px;">
+                                    <span style="display: inline-block; width:100px;">
                                         <strong>Category:</strong>
                                     </span>
                                     Nothing was found in the cookie database.
                                 </li>
                                 <li>
-                                    <span style="width:100px;">
+                                    <span style="display: inline-block; width:100px;">
                                         <strong>Purpose:</strong>
                                     </span>
                                     Nothing was found in the cookie database.
                                 </li>
                                 <li>
-                                    <span style="width:100px;">
+                                    <span style="display: inline-block; width:100px;">
                                         <strong>Impact:</strong>
                                     </span>
                                     Nothing was found in the cookie database.
                                 </li>
                                 <li>
-                                    <span style="width:100px;">
+                                    <span style="display: inline-block; width:100px;">
                                         <strong>Website:</strong>
                                     </span>
                                     <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
