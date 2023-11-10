@@ -112,7 +112,7 @@
       {
         "Category": "User Engagement and Analytics",
         "Purpose": "Used to track user behavior and interactions as they navigate sites",
-        "Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests and so on"
+        "Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on"
       }
     ]
   },
@@ -287,7 +287,7 @@
       {
         "Category": "Cross-Device User Identification",
         "Purpose": "Used to synchronize the ID across many different Microsoft domains to enable user tracking.",
-        "Impact": "prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics."
+        "Impact": "Prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics."
       }
     ],
     "c.clarity.ms": [
