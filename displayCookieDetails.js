@@ -48,19 +48,27 @@ async function getCookieDetailsHTML() {
                             outputHTML += `
                                 <ul class="list-inside ml-4 p-3">
                                     <li>
-                                        <strong>Category:&ensp;</strong>
+                                        <span style="width:100px;">
+                                            <strong>Category:&ensp;</strong>
+                                        </span>
                                         ${cookieDetail["Category"]}
                                     </li>
                                     <li>
-                                        <strong>Purpose:&ensp;</strong>
+                                        <span style="width:100px;">
+                                            <strong>Purpose:&ensp;</strong>
+                                        </span>
                                         ${cookieDetail["Purpose"]}
                                     </li>
                                     <li>
-                                        <strong>Impact:&ensp;</strong>
+                                        <span style="width:100px;">
+                                            <strong>Impact:&ensp;</strong>
+                                        </span>
                                         ${cookieDetail["Impact"]}
                                     </li>
                                     <li>
-                                        <strong>Website:&ensp;</strong>
+                                        <span style="width:100px;">
+                                            <strong>Website:&ensp;</strong>
+                                        </span>
                                         <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
                                     </li>
                                 </ul>
@@ -70,19 +78,27 @@ async function getCookieDetailsHTML() {
                         outputHTML += `
                             <ul class="list-inside ml-4 p-3">
                                 <li>
-                                    <strong>Category:&ensp;</strong>
-                                    Nothing found in database.
+                                    <span style="width:100px;">
+                                        <strong>Category:&ensp;</strong>
+                                    </span>
+                                    Nothing was found in the cookie database.
                                 </li>
                                 <li>
-                                    <strong>Purpose:&ensp;</strong>
-                                    Nothing found in database.
+                                    <span style="width:100px;">
+                                        <strong>Purpose:&ensp;</strong>
+                                    </span>
+                                    Nothing was found in the cookie database.
                                 </li>
                                 <li>
-                                    <strong>Impact:&ensp;</strong>
-                                    Nothing found in database.
+                                    <span style="width:100px;">
+                                        <strong>Impact:&ensp;</strong>
+                                    </span>
+                                    Nothing was found in the cookie database.
                                 </li>
                                 <li>
-                                    <strong>Website:&ensp;</strong>
+                                    <span style="width:100px;">
+                                        <strong>Website:&ensp;</strong>
+                                    </span>
                                     <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
                                 </li>
                             </ul>
