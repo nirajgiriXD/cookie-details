@@ -1,7 +1,6 @@
 async function fetchCookieDetails() {
-    res = await fetch("https://raw.githubusercontent.com/nirajgiriXD/cookie-details/main/cookie-details-object.json");
-    const cookieDetails = await res.json();
-    return cookieDetails;
+    const res = await fetch("https://raw.githubusercontent.com/nirajgiriXD/cookie-details/main/cookie-details-object.json");
+    return await res.json();
 }
 
 async function getCookieDetailsHTML() {
