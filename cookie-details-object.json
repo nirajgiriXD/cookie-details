@@ -263,10 +263,11 @@
     "c.bing.com": [
       {
         "Category": "Ad Personalization",
-        "Purpose": "Used for passing user action information and reporting purpERROR!
-oses to the Bing advertising network, and for personalization.",
+        "Purpose": "Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization.",
         "IfBlocked": "Will lead to inaccurate click tracking, limited personalized content, and reduced reporting accuracy."
-      },
+      }
+    ],
+    "c.clarity.ms": [
       {
         "Category": "Ad Personalization",
         "Purpose": "Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization.",
