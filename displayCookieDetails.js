@@ -95,4 +95,4 @@ async function displayCookieDetails() {
     body.appendChild(html);
 }
 
-await displayCookieDetails();
+// await displayCookieDetails();
