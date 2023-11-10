@@ -1,16 +1,12 @@
-const remoteFileURL =
-    "https://raw.githubusercontent.com/nirajgiriXD/cookie-details/main/cookie-details-object.json";
-const cookieDetailsContainerId = "cookie-details-container";
-
 async function fetchCookieDetails() {
-    res = await fetch(remoteFileURL);
+    res = await fetch("https://raw.githubusercontent.com/nirajgiriXD/cookie-details/main/cookie-details-object.json");
     const cookieDetails = await res.json();
     return cookieDetails;
 }
 
 async function getCookieDetailsHTML() {
     const htmlElement = document.createElement("div");
-    htmlElement.id = cookieDetailsContainerId;
+    htmlElement.id = "cookie-details-container";
 
     let outputHTML = "";
     const cookieObj = await fetchCookieDetails();
@@ -108,7 +104,7 @@ async function getCookieDetailsHTML() {
 
 async function displayCookieDetails() {
     const previousCookieDetailContainer = document.getElementById(
-        cookieDetailsContainerId
+        "cookie-details-container"
     );
 
     if (previousCookieDetailContainer) {
