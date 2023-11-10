@@ -64,7 +64,7 @@ async function getCookieDetailsHTML() {
                                         ${cookieDetail["Impact"]}
                                     </li>
                                     <li>
-                                        <strong>Page: </strong>
+                                        <strong>Website: </strong>
                                         <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
                                     </li>
                                 </ul>
@@ -86,7 +86,7 @@ async function getCookieDetailsHTML() {
                                     Nothing found in database.
                                 </li>
                                 <li>
-                                    <strong>Page: </strong>
+                                    <strong>Website: </strong>
                                     <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
                                 </li>
                             </ul>
