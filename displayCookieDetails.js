@@ -12,7 +12,7 @@ async function getCookieDetailsHTML() {
     const htmlElement = document.createElement("div");
     htmlElement.id = cookieDetailsContainerId;
 
-    let outputHTML = '';
+    let outputHTML = "";
     const cookieObj = await fetchCookieDetails();
 
     const table = document.querySelector(
@@ -24,7 +24,9 @@ async function getCookieDetailsHTML() {
             "div.outline-0.flex.divide-x.divide-american-silver"
         );
 
-        const page = document.querySelector('li.truncate.pl-6.cursor-pointer.flex.items-center.bg-royal-blue.text-white:nth-child(2)')?.innerText;
+        const page = document.querySelector(
+            "li.truncate.pl-6.cursor-pointer.flex.items-center.bg-royal-blue.text-white:nth-child(2)"
+        )?.innerText;
 
         if (rows) {
             outputHTML += `<div class="border-t border-gray-400">`;
@@ -36,43 +38,66 @@ async function getCookieDetailsHTML() {
                 if (cookieScope === "Third Party") {
                     const cookieDetails = cookieObj[cookieName][cookieDomain];
 
+                    outputHTML += `<div class="p-5">`;
+                    outputHTML += `<div class="max-w-md mx-auto bg-white rounded p-4 shadow">`;
+                    outputHTML += `<ul class="list-inside space-y-2">`;
+                    outputHTML += `
+                        <li class="p-2">
+                        <h2 class="border-b border-gray-200 p-2">
+                            ${cookieName} (<span class="text-royal-blue">${cookieDomain}</span>)
+                        </h2>
+                    `;
                     if (cookieDetails) {
-                        outputHTML += `<div class="p-5">`;
-                        outputHTML += `<div class="max-w-md mx-auto bg-white rounded p-4 shadow">`;
-                        outputHTML += `<ul class="list-inside space-y-2">`;
                         cookieDetails.forEach((cookieDetail) => {
                             outputHTML += `
-                                <li class="p-2">
-                                    <h2 class="border-b border-gray-200 p-2">
-                                        ${cookieName} (<span class="text-royal-blue">${cookieDomain}</span>)
-                                    </h2>
-                                    <ul class="list-inside ml-4 p-3">
-                                        <li>
-                                            <strong>Category: </strong>
-                                            ${cookieDetail["Category"]}
-                                        </li>
-                                        <li>
-                                            <strong>Purpose: </strong>
-                                            ${cookieDetail["Purpose"]}
-                                        </li>
-                                        <li>
-                                            <strong>Impact: </strong>
-                                            ${cookieDetail["Impact"]}
-                                        </li>
-                                        <li>
-                                            <strong>Page: </strong>
-                                            <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                <ul class="list-inside ml-4 p-3">
+                                    <li>
+                                        <strong>Category: </strong>
+                                        ${cookieDetail["Category"]}
+                                    </li>
+                                    <li>
+                                        <strong>Purpose: </strong>
+                                        ${cookieDetail["Purpose"]}
+                                    </li>
+                                    <li>
+                                        <strong>Impact: </strong>
+                                        ${cookieDetail["Impact"]}
+                                    </li>
+                                    <li>
+                                        <strong>Page: </strong>
+                                        <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
+                                    </li>
+                                </ul>
                             `;
                         });
-                        outputHTML += `</ul>`;
-                        outputHTML += `</div>`;
-                        outputHTML += `</div>`;
+                    } else {
+                        outputHTML += `
+                            <ul class="list-inside ml-4 p-3">
+                                <li>
+                                    <strong>Category: </strong>
+                                    Nothing found in database.
+                                </li>
+                                <li>
+                                    <strong>Purpose: </strong>
+                                    Nothing found in database.
+                                </li>
+                                <li>
+                                    <strong>Impact: </strong>
+                                    Nothing found in database.
+                                </li>
+                                <li>
+                                    <strong>Page: </strong>
+                                    <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
+                                </li>
+                            </ul>
+                        `;
                     }
+                    outputHTML += `</ul>`;
+                    outputHTML += `</div>`;
+                    outputHTML += `</div>`;
                 }
             });
+            outputHTML += `</li>`;
             outputHTML += `</div>`;
         }
     }
@@ -91,7 +116,7 @@ async function displayCookieDetails() {
     }
 
     const html = await getCookieDetailsHTML();
-    const body = document.querySelector('body');
+    const body = document.querySelector("body");
     body.appendChild(html);
 }
 
