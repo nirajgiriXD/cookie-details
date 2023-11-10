@@ -47,19 +47,19 @@ async function getCookieDetailsHTML() {
                             outputHTML += `
                                 <ul class="list-inside ml-4 p-3">
                                     <li>
-                                        <strong>Category: </strong>
+                                        <strong>Category:&nbsp;</strong>
                                         ${cookieDetail["Category"]}
                                     </li>
                                     <li>
-                                        <strong>Purpose: </strong>
+                                        <strong>Purpose:&nbsp;&nbsp;</strong>
                                         ${cookieDetail["Purpose"]}
                                     </li>
                                     <li>
-                                        <strong>Impact: </strong>
+                                        <strong>Impact:&nbsp;&nbsp;&nbsp;</strong>
                                         ${cookieDetail["Impact"]}
                                     </li>
                                     <li>
-                                        <strong>Website: </strong>
+                                        <strong>Website:&nbsp;&nbsp;</strong>
                                         <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
                                     </li>
                                 </ul>
@@ -69,19 +69,19 @@ async function getCookieDetailsHTML() {
                         outputHTML += `
                             <ul class="list-inside ml-4 p-3">
                                 <li>
-                                    <strong>Category: </strong>
+                                    <strong>Category:&nbsp;</strong>
                                     Nothing found in database.
                                 </li>
                                 <li>
-                                    <strong>Purpose: </strong>
+                                    <strong>Purpose:&nbsp;&nbsp;</strong>
                                     Nothing found in database.
                                 </li>
                                 <li>
-                                    <strong>Impact: </strong>
+                                    <strong>Impact:&nbsp;&nbsp;&nbsp;</strong>
                                     Nothing found in database.
                                 </li>
                                 <li>
-                                    <strong>Website: </strong>
+                                    <strong>Website:&nbsp;&nbsp;</strong>
                                     <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
                                 </li>
                             </ul>
