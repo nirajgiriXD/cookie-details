@@ -24,6 +24,7 @@ async function getCookieDetailsHTML() {
         )?.innerText;
 
         if (rows) {
+            let count = 1;
             outputHTML += `<div class="border-t border-gray-400">`;
             rows.forEach((row) => {
                 const columns = row.querySelectorAll("div");
@@ -39,7 +40,7 @@ async function getCookieDetailsHTML() {
                     outputHTML += `
                         <li class="p-2">
                         <h2 class="border-b border-gray-200 p-2">
-                            ${cookieName} (<span class="text-royal-blue">${cookieDomain}</span>)
+                            ${count}. ${cookieName} (<span class="text-royal-blue">${cookieDomain}</span>)
                         </h2>
                     `;
                     if (cookieDetails) {
@@ -90,6 +91,7 @@ async function getCookieDetailsHTML() {
                     outputHTML += `</ul>`;
                     outputHTML += `</div>`;
                     outputHTML += `</div>`;
+                    count++;
                 }
             });
             outputHTML += `</li>`;
