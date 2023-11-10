@@ -1,6 +1,6 @@
 | Cookie Name | Domain |  Category | Purpose | If Blocked |
 | --- | --- | --- | --- | --- |
-| C | .adform.net | Cookie Acceptance Verification | Used to determine if a browser is configured to accept cookies | It will affect the storing of user preferences in components using AfForm |
+| C | .adform.net | Cookie Acceptance Verification | Used to determine if a browser is configured to accept cookies | It will affect the storing of user preferences in components using AdForm |
 | CMPRO | casalemedia.com | Ad Performance & Frequency Capping | Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users | Ad performance will not work and users may experience repeated appearance of ads |
 | CMPS | casalemedia.com | Ad Performance & Frequency Capping | Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users | Ad performance will not work and users may experience repeated appearance of ads |
 | CMID | casalemedia.com | Ad Performance & Frequency Capping | Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users | Ad performance will not work and users may experience repeated appearance of ads |
