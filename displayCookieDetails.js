@@ -69,7 +69,7 @@ async function getCookieDetailsHTML() {
                                     </li>
                                     <li>
                                         <span style="display: inline-block; width:85px;">
-                                            <strong>Website:</strong>
+                                            <strong>Webpage:</strong>
                                         </span>
                                         <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
                                     </li>
@@ -99,7 +99,7 @@ async function getCookieDetailsHTML() {
                                 </li>
                                 <li>
                                     <span style="display: inline-block; width:85px;">
-                                        <strong>Website:</strong>
+                                        <strong>Webpage:</strong>
                                     </span>
                                     <a href="${page}" target="_blank" class="text-royal-blue">${page}</a>
                                 </li>
