@@ -1,3 +1,4 @@
 # Cookie Details
 
-Get information about cookies.
+Get detailed information about cookies.  
+Site: https://nirajgirixd.github.io/cookie-details/
