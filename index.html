@@ -4,8 +4,192 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+    <style>
+        main {
+            height: 100vh;
+        }
+        .custom-shadow {
+            box-shadow: rgba(149, 157, 165, 0.18) 0px 8px 24px;
+        }
+        .custom-h-100 {
+            min-height: 100vh;
+            height: 100%;
+        }
+        .card-text {
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    
+    <main class="container">
+        <div class="w-100 custom-h-100">
+            <div class="w-100 custom-h-100 d-flex justify-content-center align-items-center">
+                <div class="w-100 p-4 custom-shadow rounded my-5">
+                
+                    <!-- Search Section -->
+                    <div class="d-flex mb-3">
+                        <div class="form-floating w-100 me-3">
+                            <input type="text" class="form-control" id="cookie-name" placeholder="">
+                            <label for="cookie-name">Cookie Name</label>
+                        </div>
+                        <div class="form-floating w-100 me-3">
+                            <input type="text" class="form-control" id="cookie-domain" placeholder="">
+                            <label for="cookie-domain">Cookie Domain</label>
+                        </div>
+                        <button class="btn btn-primary" id="submit-btn">Submit</button>
+                    </div>
+
+                    <!-- Result Section -->
+                    <div id="result-container">
+                        <!-- Dynamic Search Result -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", async function() {
+            const cookieObj = await fetchCookieDetails();
+            const submitBtn = document.getElementById("submit-btn");
+            const cookieName = document.getElementById("cookie-name");
+            const cookieDomain = document.getElementById("cookie-domain");
+
+            submitBtn.addEventListener('click', async function() {
+                getCookieDetailsResult();
+            });
+
+            async function fetchCookieDetails() {
+                const res = await fetch(
+                    "https://raw.githubusercontent.com/nirajgiriXD/cookie-details/main/cookie-details-object.json"
+                );
+                return await res.json();
+            }
+
+            function getCookieDetailsCardHTML(cookieDetail) {
+                return `
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">
+                                    ${cookieDetail.cookieName} (${cookieDetail.cookieDomain})
+                                </h6>
+                                <p class="card-text">
+                                    <strong>Category: </strong> ${cookieDetail.cookieCategory}
+                                    <br>
+                                    <strong>Purpose: </strong> ${cookieDetail.cookiePurpose}
+                                    <br>
+                                    <strong>Impact: </strong> ${cookieDetail.cookieImpact}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            function filterCookieDetails(cookieNameValue, cookieDomainValue) {
+                const cookieDetails = [];
+
+                if (cookieNameValue && cookieDomainValue) {
+                    if (cookieObj[cookieNameValue][cookieDomainValue]) {
+                        if (cookieObj[cookieNameValue][cookieDomainValue]) {
+                            cookieObj[cookieNameValue][cookieDomainValue].forEach((cookieDetailsItem) => {
+                                cookieDetails.push({
+                                    cookieName: cookieNameValue,
+                                    cookieDomain: cookieDomainValue,
+                                    cookieCategory: cookieDetailsItem.Category,
+                                    cookiePurpose: cookieDetailsItem.Purpose,
+                                    cookieImpact: cookieDetailsItem.Impact,
+                                });
+                            });
+                        }
+                    }
+                } else if (cookieNameValue) {
+                    if (cookieObj[cookieNameValue]) {
+                        for (var cookieDomain in cookieObj[cookieNameValue]) {
+                            if (cookieObj[cookieNameValue].hasOwnProperty(cookieDomain)) {
+                                cookieObj[cookieNameValue][cookieDomain].forEach((cookieDetailsItem) => {
+                                    cookieDetails.push({
+                                        cookieName: cookieNameValue,
+                                        cookieDomain: cookieDomain,
+                                        cookieCategory: cookieDetailsItem.Category,
+                                        cookiePurpose: cookieDetailsItem.Purpose,
+                                        cookieImpact: cookieDetailsItem.Impact,
+                                    });
+                                });
+                            }
+                        }
+                    }
+                } else {
+                    for (var cookieName in cookieObj) {
+                        if (cookieObj.hasOwnProperty(cookieName)) {
+                            for (var cookieDomain in cookieObj[cookieName]) {
+                                if (cookieObj[cookieName].hasOwnProperty(cookieDomain)) {
+                                    if (cookieDomain === cookieDomainValue) {
+                                        cookieObj[cookieName][cookieDomainValue].forEach((cookieDetailsItem) => {
+                                            cookieDetails.push({
+                                                cookieName: cookieName,
+                                                cookieDomain: cookieDomainValue,
+                                                cookieCategory: cookieDetailsItem.Category,
+                                                cookiePurpose: cookieDetailsItem.Purpose,
+                                                cookieImpact: cookieDetailsItem.Impact,
+                                            });
+                                        });
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                return cookieDetails;
+            }
+
+            function getCookieDetailsResult() {
+                const cookieNameValue = (cookieName.value).trim();
+                const cookieDomainValue = (cookieDomain.value).trim();
+                const resultContainer = document.getElementById('result-container');
+                let cookieDetailsCardHTML = '';
+
+                if ((cookieNameValue !== "") || (cookieDomainValue !== "")) {
+                    const cookieDetails = filterCookieDetails(cookieNameValue, cookieDomainValue);
+                    if (cookieDetails.length > 0) {
+                        cookieDetailsCardHTML += `
+                            <div class="border-top pt-3">
+                                <div class="row row-cols-3 g-3">
+                        `;
+
+                        cookieDetails.forEach((cookieDetail) => {
+                            cookieDetailsCardHTML += getCookieDetailsCardHTML(cookieDetail);
+                        });
+
+                        cookieDetailsCardHTML += `</div></div>`;
+                    } else {
+                        cookieDetailsCardHTML += `
+                            <div class="card">
+                                <div class="card-body">
+                                    <p class="card-text text-center">
+                                        Nothing found in the database.
+                                    </p>
+                                </div>
+                            </div>
+                        `;
+                    }
+                } else {
+                    cookieDetailsCardHTML += `
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text text-center">
+                                    No input found.
+                                </p>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                resultContainer.innerHTML =  cookieDetailsCardHTML;
+            }
+        });
+    </script>
 </body>
 </html>
