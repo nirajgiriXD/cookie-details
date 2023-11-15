@@ -92,18 +92,16 @@
                 const cookieDetails = [];
 
                 if (cookieNameValue && cookieDomainValue) {
-                    if (cookieObj[cookieNameValue][cookieDomainValue]) {
-                        if (cookieObj[cookieNameValue][cookieDomainValue]) {
-                            cookieObj[cookieNameValue][cookieDomainValue].forEach((cookieDetailsItem) => {
-                                cookieDetails.push({
-                                    cookieName: cookieNameValue,
-                                    cookieDomain: cookieDomainValue,
-                                    cookieCategory: cookieDetailsItem.Category,
-                                    cookiePurpose: cookieDetailsItem.Purpose,
-                                    cookieImpact: cookieDetailsItem.Impact,
-                                });
+                    if (cookieObj[cookieNameValue] && cookieObj[cookieNameValue][cookieDomainValue]) {
+                        cookieObj[cookieNameValue][cookieDomainValue].forEach((cookieDetailsItem) => {
+                            cookieDetails.push({
+                                cookieName: cookieNameValue,
+                                cookieDomain: cookieDomainValue,
+                                cookieCategory: cookieDetailsItem.Category,
+                                cookiePurpose: cookieDetailsItem.Purpose,
+                                cookieImpact: cookieDetailsItem.Impact,
                             });
-                        }
+                        });
                     }
                 } else if (cookieNameValue) {
                     if (cookieObj[cookieNameValue]) {
