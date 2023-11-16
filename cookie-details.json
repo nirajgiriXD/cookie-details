@@ -67,7 +67,7 @@
                 "Category": "Ad Performance & Frequency Capping",
                 "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
                 "Impact": "Ad performance will not work and users may experience the repeated appearance of ads",
-                "Reference": [""]
+                "Reference": []
             }
         ]
     },
@@ -77,7 +77,7 @@
                 "Category": "Ad Performance & Frequency Capping",
                 "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
                 "Impact": "Ad performance will not work and users may experience the repeated appearance of ads",
-                "Reference": [""]
+                "Reference": []
             }
         ]
     },
@@ -109,7 +109,7 @@
                 "Category": "Push Notifications",
                 "Purpose": "This cookie is used for the iZooto push notification feature.",
                 "Impact": "Blocking these cookies prevents iZooto from sending push notifications.",
-                "Reference": [""]
+                "Reference": []
             }
         ]
     },
@@ -131,19 +131,19 @@
                 "Category": "Ad Performance & Frequency Capping",
                 "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
                 "Impact": "Ad performance will not work and users may experience the repeated appearance of ads",
-                "Reference": [""]
+                "Reference": []
             },
             {
                 "Category": "Ad Personalization",
                 "Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
                 "Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits.",
-                "Reference": [""]
+                "Reference": []
             },
             {
                 "Category": "Cross-Device User Identification",
                 "Purpose": "To track user activity and show targeted ads. They contain a unique ID that identifies the user's device and helps recognize returning users for a personalized browsing experience across different devices.",
                 "Impact": "Prevent the identification of users across devices, and consequently impact the effectiveness of cross-device advertising campaigns.",
-                "Reference": [""]
+                "Reference": []
             }
         ]
     },
@@ -317,7 +317,7 @@
                 "Category": "Ad Personalization and Conversion Tracking",
                 "Purpose": "Used in the context of targeted advertising  by the entities defined by the domains of the cookies.",
                 "Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions.",
-                "Reference": [""]
+                "Reference": []
             }
         ]
     },
@@ -407,7 +407,7 @@
                 "Category": "Ad Personalization",
                 "Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
                 "Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits.",
-                "Reference": [""]
+                "Reference": []
             },
             {
                 "Category": "Social Media-Integrated Advertising",
@@ -425,13 +425,13 @@
                 "Category": "Ad Performance & Frequency Capping",
                 "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
                 "Impact": "Ad performance will not work and users may experience repeated appearance of ads",
-                "Reference": [""]
+                "Reference": []
             },
             {
                 "Category": "Real-Time Bidding & Advertiser Matching",
                 "Purpose": "Sets a unique ID for the visitor. Third-party advertisers use it to target them with relevant ads. Third-party advertisement hubs provide this pairing service, facilitating real-time bidding for advertisers.",
                 "Impact": "Add complications with real-time ad bidding system and advertiser-to-user matching",
-                "Reference": [""]
+                "Reference": []
             }
         ]
     },
@@ -485,7 +485,7 @@
                 "Category": "Ad Personalization",
                 "Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
                 "Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits.",
-                "Reference": [""]
+                "Reference": []
             }
         ]
     },
@@ -495,7 +495,7 @@
                 "Category": "User Engagement and Analytics",
                 "Purpose": "Used to track user behavior and interactions as they navigate sites",
                 "Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on",
-                "Reference": [""]
+                "Reference": []
             }
         ]
     }
