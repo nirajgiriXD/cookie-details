@@ -156,7 +156,7 @@
     ".twitter.com": [
       {
         "Category": "Social Media-Integrated Advertising",
-        "Purpose": "This cookie is used to set a unique value by which Twitter identifies users. The collected information is used to personalize Twitter services, including ads, trends, and suggestions.",
+        "Purpose": "This cookie is set by Twitter for advertising and to identify and track the website visitor.",
         "Impact": "Impacts Twitter by preventing it from gathering user information from the site the user is visiting."
       }
     ]
