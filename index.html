@@ -64,6 +64,18 @@
                 getCookieDetailsResult();
             });
 
+            cookieName.addEventListener('keypress', (event) => { 
+                if (event.key === 'Enter') {
+                    getCookieDetailsResult()
+                }
+            });
+
+            cookieDomain.addEventListener('keypress', (event) => {
+                if(event.key === 'Enter') {
+                    getCookieDetailsResult()
+                }
+            });
+
             async function fetchCookieDetails() {
                 const res = await fetch(
                     "https://raw.githubusercontent.com/nirajgiriXD/cookie-details/main/cookie-details.json"
