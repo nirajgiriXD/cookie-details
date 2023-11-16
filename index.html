@@ -72,9 +72,15 @@
             }
 
             function getCookieDetailsCardHTML(cookieDetail) {
-                const references = cookieDetail.cookieReferences.map((link) => {
-                    return '<li><a href="' + link + '" target="_blank">' + link + '</a></li>';
-                }).join('');
+                let references;
+                if (cookieDetail.cookieReferences.length > 0) {
+                    references = cookieDetail.cookieReferences.map((link) => {
+                        return '<li><a href="' + link + '" target="_blank">' + link + '</a></li>';
+                    }).join('');
+                } else {
+                    references = 'None';
+                }
+
                 return `
                     <div class="col">
                         <div class="card">
