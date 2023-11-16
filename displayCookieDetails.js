@@ -1,6 +1,6 @@
 async function fetchCookieDetails() {
 	const res = await fetch(
-		"https://raw.githubusercontent.com/nirajgiriXD/cookie-details/main/cookie-details-object.json"
+		"https://raw.githubusercontent.com/nirajgiriXD/cookie-details/main/cookie-details.json"
 	);
 	return await res.json();
 }
