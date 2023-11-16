@@ -100,6 +100,7 @@
                                 <h6 class="card-title">
                                     ${cookieDetail.cookieName} (${cookieDetail.cookieDomain})
                                 </h6>
+                                <hr class="hr">
                                 <div class="card-text">
                                     <ul style="padding-left: 13px;">
                                         <li>
@@ -113,7 +114,7 @@
                                         </li>
                                         <li>
                                             <strong>Reference: </strong>
-                                            <ul style="padding-left: 13px;">
+                                            <ul style="padding: 3px 0 0 13px;">
                                                 ${references}
                                             </ul>
                                         </li>
@@ -129,25 +130,34 @@
                 const cookieDetails = [];
 
                 if (cookieNameValue && cookieDomainValue) {
-                    if (cookieObj[cookieNameValue] && cookieObj[cookieNameValue][cookieDomainValue]) {
-                        cookieObj[cookieNameValue][cookieDomainValue].forEach((cookieDetailsItem) => {
-                            cookieDetails.push({
-                                cookieName: cookieNameValue,
-                                cookieDomain: cookieDomainValue,
-                                cookieCategory: cookieDetailsItem.Category,
-                                cookiePurpose: cookieDetailsItem.Purpose,
-                                cookieImpact: cookieDetailsItem.Impact,
-                                cookieReferences: cookieDetailsItem.Reference,
-                            });
-                        });
+                    for (var cookieName in cookieObj) {
+                        let lowerCaseCookieName = cookieName.toLowerCase();
+                        if (lowerCaseCookieName === cookieNameValue) {
+                            for (var cookieDomain in cookieObj[cookieName]) {
+                                let lowerCaseCookieDomain = cookieDomain.toLowerCase();
+                                if (lowerCaseCookieDomain === cookieDomainValue) {
+                                    cookieObj[cookieName][cookieDomain].forEach((cookieDetailsItem) => {
+                                        cookieDetails.push({
+                                            cookieName: cookieName,
+                                            cookieDomain: cookieDomain,
+                                            cookieCategory: cookieDetailsItem.Category,
+                                            cookiePurpose: cookieDetailsItem.Purpose,
+                                            cookieImpact: cookieDetailsItem.Impact,
+                                            cookieReferences: cookieDetailsItem.Reference,
+                                        });
+                                    });
+                                }
+                            }
+                        }
                     }
                 } else if (cookieNameValue) {
-                    if (cookieObj[cookieNameValue]) {
-                        for (var cookieDomain in cookieObj[cookieNameValue]) {
-                            if (cookieObj[cookieNameValue].hasOwnProperty(cookieDomain)) {
-                                cookieObj[cookieNameValue][cookieDomain].forEach((cookieDetailsItem) => {
+                    for (var cookieName in cookieObj) {
+                        let lowerCaseCookieName = cookieName.toLowerCase();
+                        if (lowerCaseCookieName === cookieNameValue) {
+                            for (var cookieDomain in cookieObj[cookieName]) {
+                                cookieObj[cookieName][cookieDomain].forEach((cookieDetailsItem) => {
                                     cookieDetails.push({
-                                        cookieName: cookieNameValue,
+                                        cookieName: cookieName,
                                         cookieDomain: cookieDomain,
                                         cookieCategory: cookieDetailsItem.Category,
                                         cookiePurpose: cookieDetailsItem.Purpose,
@@ -159,23 +169,20 @@
                         }
                     }
                 } else {
-                    for (var cookieName in cookieObj) {
-                        if (cookieObj.hasOwnProperty(cookieName)) {
-                            for (var cookieDomain in cookieObj[cookieName]) {
-                                if (cookieObj[cookieName].hasOwnProperty(cookieDomain)) {
-                                    if (cookieDomain === cookieDomainValue) {
-                                        cookieObj[cookieName][cookieDomainValue].forEach((cookieDetailsItem) => {
-                                            cookieDetails.push({
-                                                cookieName: cookieName,
-                                                cookieDomain: cookieDomainValue,
-                                                cookieCategory: cookieDetailsItem.Category,
-                                                cookiePurpose: cookieDetailsItem.Purpose,
-                                                cookieImpact: cookieDetailsItem.Impact,
-                                                cookieReferences: cookieDetailsItem.Reference,
-                                            });
-                                        });
-                                    }
-                                }
+                    for(var cookieName in cookieObj) {
+                        for (var cookieDomain in cookieObj[cookieName]) {
+                            let lowerCaseCookieDomain = cookieDomain.toLowerCase();
+                            if (lowerCaseCookieDomain === cookieDomainValue) {
+                                cookieObj[cookieName][cookieDomain].forEach((cookieDetailsItem) => {
+                                    cookieDetails.push({
+                                        cookieName: cookieName,
+                                        cookieDomain: cookieDomain,
+                                        cookieCategory: cookieDetailsItem.Category,
+                                        cookiePurpose: cookieDetailsItem.Purpose,
+                                        cookieImpact: cookieDetailsItem.Impact,
+                                        cookieReferences: cookieDetailsItem.Reference,
+                                    });
+                                });
                             }
                         }
                     }
@@ -190,7 +197,7 @@
                 let cookieDetailsCardHTML = '';
 
                 if ((cookieNameValue !== "") || (cookieDomainValue !== "")) {
-                    const cookieDetails = filterCookieDetails(cookieNameValue, cookieDomainValue);
+                    const cookieDetails = filterCookieDetails(cookieNameValue.toLowerCase(), cookieDomainValue.toLowerCase());
                     if (cookieDetails.length > 0) {
                         cookieDetailsCardHTML += `
                             <div class="border-top pt-3">
