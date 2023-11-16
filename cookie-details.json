@@ -155,13 +155,8 @@
   "personalization_id": {
     ".twitter.com": [
       {
-        "Category": "Ad Personalization",
-        "Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
-        "Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits."
-      },
-      {
         "Category": "Social Media-Integrated Advertising",
-        "Purpose": "Sets a unique value by which Twitter identifies users. The collected information is used to personalize Twitter services, including ads, trends, and suggestions.",
+        "Purpose": "This cookie is used to set a unique value by which Twitter identifies users. The collected information is used to personalize Twitter services, including ads, trends, and suggestions.",
         "Impact": "Impacts Twitter by preventing it from gathering user information from the site the user is visiting."
       }
     ]
