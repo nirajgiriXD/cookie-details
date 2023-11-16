@@ -1,348 +1,468 @@
 {
-  "C": {
-    ".adform.net": [
-      {
-        "Category": "Cookie Acceptance Verification",
-        "Purpose": "Used to determine if a browser is configured to accept cookies",
-        "Impact": "It will affect the storing of user preferences in components using AdForm"
-      }
-    ]
-  },
-  "CMPRO": {
-    "casalemedia.com": [
-      {
-        "Category": "Ad Performance & Frequency Capping",
-        "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
-        "Impact": "Ad performance will not work and users may experience the repeated appearance of ads"
-      }
-    ]
-  },
-  "CMPS": {
-    "casalemedia.com": [
-      {
-        "Category": "Ad Performance & Frequency Capping",
-        "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
-        "Impact": "Ad performance will not work and users may experience the repeated appearance of ads"
-      }
-    ]
-  },
-  "CMID": {
-    "casalemedia.com": [
-      {
-        "Category": "Ad Performance & Frequency Capping",
-        "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
-        "Impact": "Ad performance will not work and users may experience the repeated appearance of ads"
-      }
-    ],
-    ".casalemedia.com": [
-      {
-        "Category": "User Engagement and Analytics",
-        "Purpose": "Used to track user behavior and interactions as they navigate sites",
-        "Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests and so on"
-      }
-    ]
-  },
-  "KRTBCOOKIE_XXX": {
-    ".pubmatic.com": [
-      {
-        "Category": "Ad Performance & Frequency Capping",
-        "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
-        "Impact": "Ad performance will not work and users may experience the repeated appearance of ads"
-      },
-      {
-        "Category": "Ad Personalization",
-        "Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
-        "Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits."
-      },
-      {
-        "Category": "Cross-Device User Identification",
-        "Purpose": "To track user activity and show targeted ads. They contain a unique ID that identifies the user's device and helps recognize returning users for a personalized browsing experience across different devices.",
-        "Impact": "Prevent the identification of users across devices, and consequently impact the effectiveness of cross-device advertising campaigns."
-      }
-    ]
-  },
-  "KADUSERCOOKIE": {
-    ".pubmatic.com": [
-      {
-        "Category": "Ad Performance & Frequency Capping",
-        "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
-        "Impact": "Ad performance will not work and users may experience repeated appearance of ads"
-      }
-    ]
-  },
-  "pubsyncexp": {
-    ".pubmatic.com": [
-      {
-        "Category": "Ad Performance & Frequency Capping",
-        "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
-        "Impact": "Ad performance will not work and users may experience repeated appearance of ads"
-      },
-      {
-        "Category": "Real-Time Bidding & Advertiser Matching",
-        "Purpose": "Sets a unique ID for the visitor. Third-party advertisers use it to target them with relevant ads. Third-party advertisement hubs provide this pairing service, facilitating real-time bidding for advertisers.",
-        "Impact": "Add complications with real-time ad bidding system and advertiser-to-user matching"
-      }
-    ]
-  },
-  "TDCPM": {
-    ".adsrvr.org": [
-      {
-        "Category": "Ad Performance & Frequency Capping",
-        "Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
-        "Impact": "Ad performance will not work and users may experience repeated appearance of ads"
-      }
-    ]
-  },
-  "anj": {
-    ".adnxs.com": [
-      {
-        "Category": "User Engagement and Analytics",
-        "Purpose": "Used to track user behavior and interactions as they navigate sites",
-        "Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests and so on"
-      },
-      {
-        "Category": "Cross-Device User Identification",
-        "Purpose": "To track user activity and show targeted ads. They contain a unique ID that identifies the user's device and helps recognize returning users for a personalized browsing experience across different devices.",
-        "Impact": "Prevent the identification of users across devices, and consequently impact the effectiveness of cross-device advertising campaigns."
-      }
-    ]
-  },
-  "uids": {
-    ".adnxs.com": [
-      {
-        "Category": "User Engagement and Analytics",
-        "Purpose": "Used to track user behavior and interactions as they navigate sites",
-        "Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on"
-      }
-    ]
-  },
-  "visitor-id": {
-    ".hb.yahoo.net": [
-      {
-        "Category": "User Engagement and Analytics",
-        "Purpose": "Used to track user behavior and interactions as they navigate sites",
-        "Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on"
-      }
-    ]
-  },
-  "SyncRTB3": {
-    ".pubmatic.com": [
-      {
-        "Category": "Ad Network Synchronization",
-        "Purpose": "Used for ad network synchronization by centralizing data and operations",
-        "Impact": "Diminish the scope of advertising campaigns"
-      }
-    ]
-  },
-  "DPSync3": {
-    ".pubmatic.com": [
-      {
-        "Category": "Ad Network Synchronization",
-        "Purpose": "Used for ad network synchronization by centralizing data and operations",
-        "Impact": "Diminish the scope of advertising campaigns"
-      }
-    ]
-  },
-  "csync": {
-    ".smartadserver.com": [
-      {
-        "Category": "Ad Network Synchronization",
-        "Purpose": "Used for ad network synchronization by centralizing data and operations",
-        "Impact": "Diminish the scope of advertising campaigns"
-      }
-    ]
-  },
-  "personalization_id": {
-    ".twitter.com": [
-      {
-        "Category": "Social Media-Integrated Advertising",
-        "Purpose": "This cookie is set by Twitter for advertising and to identify and track the website visitor.",
-        "Impact": "Impacts Twitter by preventing it from gathering user information from the site the user is visiting."
-      }
-    ]
-  },
-  "univ_id": {
-    ".openx.net": [
-      {
-        "Category": "Ad Personalization",
-        "Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
-        "Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits."
-      }
-    ]
-  },
-  "uid": {
-    ".criteo.com": [
-      {
-        "Category": "Cross-Device User Identification",
-        "Purpose": "To track user activity and show targeted ads. They contain a unique ID that identifies the user's device and helps recognize returning users for a personalized browsing experience across different devices.",
-        "Impact": "Prevent the identification of users across devices, and consequently impact the effectiveness of cross-device advertising campaigns."
-      }
-    ],
-    ".cretio.com": [
-      {
-        "Category": "Ad Personalization and Conversion Tracking",
-        "Purpose": "Used in the context of targeted advertising  by the entities defined by the domains of the cookies.",
-        "Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions."
-      }
-    ]
-  },
-  "IDE": {
-    ".doubleclick.net": [
-      {
-        "Category": "Ad Campaign Analysis and Optimization",
-        "Purpose": "Used for targeting, analysis, and optimization of advertising campaigns powered by the DoubleClick/Google Marketing Suite.",
-        "Impact": "Limits the ability to analyze and optimize ad campaigns."
-      },
-      {
-        "Category": "Ad Personalization and Conversion Tracking",
-        "Purpose": "Used in the context of targeted advertising  by the entities defined by the domains of the cookies.",
-        "Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions."
-      }
-    ]
-  },
-  "NID": {
-    ".google.com": [
-      {
-        "Category": "Ad Personalization and Conversion Tracking",
-        "Purpose": "Used in the context of targeted advertising  by the entities defined by the domains of the cookies.",
-        "Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions."
-      }
-    ]
-  },
-  "data-ttd": {
-    ".hb.yahoo.net": [
-      {
-        "Category": "Ad Personalization and Conversion Tracking",
-        "Purpose": "Used in the context of targeted advertising  by the entities defined by the domains of the cookies.",
-        "Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions."
-      }
-    ]
-  },
-  "CLID": {
-    "www.clarity.ms": [
-      {
-        "Category": "User Engagement and Analytics",
-        "Purpose": "Used for behavioral analytics that turns user data into visual insights and shows which parts of the website get the most engagement.",
-        "Impact": "Prevent site owners from gathering usage stats for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on."
-      }
-    ]
-  },
-  "s_vi_x7Cmgx7Ebx23jkxxx23zkx7Dz": {
-    ".2o7.net": [
-      {
-        "Category": "User Engagement and Analytics",
-        "Purpose": "Used for behavioral analytics that turns user data into visual insights and shows which parts of the website get the most engagement.",
-        "Impact": "Prevent site owners from gathering usage stats for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on."
-      }
-    ]
-  },
-  "SRM_B": {
-    "c.bing.com": [
-      {
-        "Category": "Advertisement",
-        "Purpose": "Used for advertising, site analytics, and other operational purposes.",
-        "Impact": "Diminish browsing experience, including encountering more generic advertisements, and limited personalization."
-      }
-    ]
-  },
-  "ANONCHK": {
-    "c.clarity.ms": [
-      {
-        "Category": "Ad Personalization",
-        "Purpose": "Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization.",
-        "Impact": "Will lead to inaccurate click tracking, limited personalized content, and reduced reporting accuracy."
-      }
-    ]
-  },
-  "MR": {
-    "c.bing.com": [
-      {
-        "Category": "Ad Personalization",
-        "Purpose": "Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization.",
-        "Impact": "Will lead to inaccurate click tracking, limited personalized content, and reduced reporting accuracy."
-      }
-    ],
-    "c.clarity.ms": [
-      {
-        "Category": "Ad Personalization",
-        "Purpose": "Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization.",
-        "Impact": "Will lead to inaccurate click tracking, limited personalized content, and reduced reporting accuracy."
-      }
-    ],
-    ".bat.bing.com": [
-      {
-        "Category": "Ad Campaign Measurement & Optimization",
-        "Purpose": "Used for targeting, analysis, and optimization of advertising campaigns powered by the DoubleClick/Google Marketing Suite.",
-        "Impact": "Limits the ability to analyze and optimize ad campaigns."
-      }
-    ]
-  },
-  "SM": {
-    ".c.clarity.ms": [
-      {
-        "Category": "Cross-Device User Identification",
-        "Purpose": "Used to synchronize the ID across many different Microsoft domains to enable user tracking.",
-        "Impact": "Prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics."
-      }
-    ],
-    "c.clarity.ms": [
-      {
-        "Category": "Cross-Device User Identification",
-        "Purpose": "Used to synchronize the ID across many different Microsoft domains to enable user tracking.",
-        "Impact": "prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics."
-      }
-    ]
-  },
-  "MUID": {
-    ".clarity.ms": [
-      {
-        "Category": "Cross-Device User Identification",
-        "Purpose": "Used to synchronize the ID across many different Microsoft domains to enable user tracking.",
-        "Impact": "prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics."
-      }
-    ],
-    ".bing.com": [
-      {
-        "Category": "Cross-Device User Identification",
-        "Purpose": "Used to synchronize the ID across many different Microsoft domains to enable user tracking.",
-        "Impact": "prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics."
-      }
-    ]
-  },
-  "test_cookie": {
-    ".doubleclick.net": [
-      {
-        "Category": "Ad Campaign Analysis and Optimization",
-        "Purpose": "Used for targeting, analysis, and optimization of advertising campaigns powered by the DoubleClick/Google Marketing Suite.",
-        "Impact": "Limits the ability to analyze and optimize ad campaigns."
-      }
-    ]
-  },
-  "muc_ads": {
-    "t.co": [
-      {
-        "Category": "Social Media-Integrated Advertising",
-        "Purpose": "Collects data on user behavior and interaction in order to optimize the website and make advertisements on the website more relevant.",
-        "Impact": "Prevent Twitter from gathering user information from the site the user is visiting."
-      }
-    ]
-  },
-  "1P_JAR": {
-    ".google.com": [
-      {
-        "Category": "Ad Performance & Frequency Capping",
-        "Purpose": "Used to collect website statistics and track conversion rates.",
-        "Impact": "Users will not be able to personalize their Google experiences, such as seeing personalized ads or recommendations."
-      }
-    ]
-  },
-  "fr": {
-    ".facebook.com": [
-      {
-        "Category": "Ad Personalization & Retargeting",
-        "Purpose": "Enables ad delivery or retargeting by tracking user",
-        "Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits."
-      }
-    ]
-  }
+	"1P_JAR": {
+		".google.com": [
+			{
+				"Category": "Ad Performance & Frequency Capping",
+				"Purpose": "Used to collect website statistics and track conversion rates.",
+				"Impact": "Users will not be able to personalize their Google experiences, such as seeing personalized ads or recommendations.",
+				"Reference": ["https://business.safety.google/adscookies/"]
+			}
+		]
+	},
+	"ANONCHK": {
+		"c.clarity.ms": [
+			{
+				"Category": "Ad Personalization",
+				"Purpose": "Used for passing user action information and reporting purposes to the Bing advertising network, and for personalization.",
+				"Impact": "Will lead to inaccurate click tracking, limited personalized content, and reduced reporting accuracy.",
+				"Reference": ["https://syke.tech/cookie-policy/"]
+			}
+		]
+	},
+	"AnalyticsSyncHistory": {
+		".linkedin.com": [
+			{
+				"Category": "Analytics and Tracking",
+				"Purpose": "This cookie is used to store information about the time a sync took place with the lms_analytics cookie.",
+				"Impact": "Blocking these cookies may limit analytics data collection, impacting the platform's understanding of user engagement and potentially hindering the effectiveness of ad targeting, and a potentially less personalized user experience.",
+				"Reference": ["https://www.linkedin.com/legal/l/cookie-table"]
+			}
+		]
+	},
+	"C": {
+		".adform.net": [
+			{
+				"Category": "Cookie Acceptance Verification",
+				"Purpose": "Identifies if the user's browser accepts cookies.",
+				"Impact": "It will affect the storing of user preferences in components using AdForm",
+				"Reference": ["https://site.adform.com/privacy-center/adform-cookies/"]
+			}
+		]
+	},
+	"CLID": {
+		"www.clarity.ms": [
+			{
+				"Category": "User Engagement and Analytics",
+				"Purpose": "Used for behavioral analytics that turns user data into visual insights and shows which parts of the website get the most engagement.",
+				"Impact": "Prevent site owners from gathering usage stats for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on.",
+				"Reference": ["https://syke.tech/cookie-policy/"]
+			}
+		]
+	},
+	"CMID": {
+		"casalemedia.com": [
+			{
+				"Category": "Targeted Advertisement",
+				"Purpose": "Collects anonymous data related to the user's visits to the website, such as the number of visits, average time spent on the website, and what pages have been loaded, with the purpose of displaying targeted ads.",
+				"Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on",
+				"Reference": ["https://sugru.com/cookies"]
+			}
+		]
+	},
+	"CMPRO": {
+		"casalemedia.com": [
+			{
+				"Category": "Ad Performance & Frequency Capping",
+				"Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
+				"Impact": "Ad performance will not work and users may experience the repeated appearance of ads",
+				"Reference": [""]
+			}
+		]
+	},
+	"CMPS": {
+		"casalemedia.com": [
+			{
+				"Category": "Ad Performance & Frequency Capping",
+				"Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
+				"Impact": "Ad performance will not work and users may experience the repeated appearance of ads",
+				"Reference": [""]
+			}
+		]
+	},
+	"DPSync3": {
+		".pubmatic.com": [
+			{
+				"Category": "Ad Network Synchronization",
+				"Purpose": "Used for ad network synchronization by centralizing data and operations",
+				"Impact": "Diminish the scope of advertising campaigns",
+				"Reference": ["https://pubmatic.com/legal/platform-cookie-policy/"]
+			}
+		]
+	},
+	"IDE": {
+		".doubleclick.net": [
+			{
+				"Category": "Ad Campaign Analysis and Optimization",
+				"Purpose": "This cookie is used by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.",
+				"Impact": "Blocking these cookies will impact the ability to measure ad engagement and conversion for media content will be severely limited. Websites relying on these cookies for user authentication and personalized content delivery will experience challenges.",
+				"Reference": ["https://www.patrolbase.co.uk/cookie-preferences"]
+			}
+		]
+	},
+	"IZCID": {
+		".izooto.com": [
+			{
+				"Category": "Push Notifications",
+				"Purpose": "This cookie is used for the iZooto push notification feature.",
+				"Impact": "Blocking these cookies prevents iZooto from sending push notifications.",
+				"Reference": [""]
+			}
+		]
+	},
+	"KADUSERCOOKIE": {
+		".pubmatic.com": [
+			{
+				"Category": "Ad Performance & Frequency Capping",
+				"Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
+				"Impact": "Ad performance will not work and users may experience repeated appearance of ads",
+				"Reference": ["https://pubmatic.com/legal/platform-cookie-policy/"]
+			}
+		]
+	},
+	"KRTBCOOKIE_XXX": {
+		".pubmatic.com": [
+			{
+				"Category": "Ad Performance & Frequency Capping",
+				"Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
+				"Impact": "Ad performance will not work and users may experience the repeated appearance of ads",
+				"Reference": [""]
+			},
+			{
+				"Category": "Ad Personalization",
+				"Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
+				"Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits.",
+				"Reference": [""]
+			},
+			{
+				"Category": "Cross-Device User Identification",
+				"Purpose": "To track user activity and show targeted ads. They contain a unique ID that identifies the user's device and helps recognize returning users for a personalized browsing experience across different devices.",
+				"Impact": "Prevent the identification of users across devices, and consequently impact the effectiveness of cross-device advertising campaigns.",
+				"Reference": [""]
+			}
+		]
+	},
+	"MR": {
+		"c.bing.com": [
+			{
+				"Category": "Ad Campaign Measurement & Optimization",
+				"Purpose": "Indicates whether to refresh MUID.",
+				"Impact": "Blocking these cookies may disrupt the refreshing mechanism of the MUID, potentially impacting the accuracy of user tracking, targeted advertising, site analytics, and other operational functions on Microsoft sites.",
+				"Reference": ["https://learn.microsoft.com/en-us/clarity/setup-and-installation/cookie-list"]
+			}
+		],
+		"c.clarity.ms": [
+			{
+				"Category": "Ad Campaign Measurement & Optimization",
+				"Purpose": "Indicates whether to refresh MUID.",
+				"Impact": "Blocking these cookies may disrupt the refreshing mechanism of the MUID, potentially impacting the accuracy of user tracking, targeted advertising, site analytics, and other operational functions on Microsoft sites.",
+				"Reference": ["https://learn.microsoft.com/en-us/clarity/setup-and-installation/cookie-list"]
+			}
+		],
+		".bat.bing.com": [
+			{
+				"Category": "Ad Campaign Measurement & Optimization",
+				"Purpose": "Used for targeting, analysis, and optimization of advertising campaigns powered by the DoubleClick/Google Marketing Suite.",
+				"Impact": "Blocking these cookies may disrupt the refreshing mechanism of the MUID, potentially impacting the accuracy of user tracking, targeted advertising, site analytics, and other operational functions on Microsoft sites.",
+				"Reference": ["https://learn.microsoft.com/en-us/clarity/setup-and-installation/cookie-list"]
+			}
+		]
+	},
+	"MUID": {
+		".clarity.ms": [
+			{
+				"Category": "Cross-Device User Identification",
+				"Purpose": "Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes.",
+				"Impact": "Prevent the identification of users across devices, and consequently impacting the accuracy of user tracking, targeted advertising, site analytics, and other operational functions on Microsoft sites.",
+				"Reference": ["https://syke.tech/cookie-policy/"]
+			}
+		],
+		".bing.com": [
+			{
+				"Category": "Cross-Device User Identification",
+				"Purpose": "Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes.",
+				"Impact": "Prevent the identification of users across devices, and consequently impacting the accuracy of user tracking, targeted advertising, site analytics, and other operational functions on Microsoft sites.",
+				"Reference": ["https://syke.tech/cookie-policy/"]
+			}
+		]
+	},
+	"NID": {
+		".google.com": [
+			{
+				"Category": "Ad Personalization and Conversion Tracking",
+				"Purpose": "Used in the context of targeted advertising  by the entities defined by the domains of the cookies.",
+				"Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions.",
+				"Reference": ["https://www.patrolbase.co.uk/cookie-preferences"]
+			}
+		]
+	},
+	"SM": {
+		".c.clarity.ms": [
+			{
+				"Category": "Cross-Device User Identification",
+				"Purpose": "Used to synchronize the ID across many different Microsoft domains to enable user tracking.",
+				"Impact": "Prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics.",
+				"Reference": ["https://syke.tech/cookie-policy/"]
+			}
+		],
+		"c.clarity.ms": [
+			{
+				"Category": "Cross-Device User Identification",
+				"Purpose": "Used to synchronize the ID across many different Microsoft domains to enable user tracking.",
+				"Impact": "prevent the identification of users across devices, and consequently impact the effectiveness of user data analytics.",
+				"Reference": ["https://syke.tech/cookie-policy/"]
+			}
+		]
+	},
+	"SRM_B": {
+		"c.bing.com": [
+			{
+				"Category": "Advertisement",
+				"Purpose": "Used for advertising, site analytics, and other operational purposes.",
+				"Impact": "Diminish browsing experience, including encountering more generic advertisements, and limited personalization.",
+				"Reference": ["https://syke.tech/cookie-policy/"]
+			}
+		]
+	},
+	"SyncRTB3": {
+		".pubmatic.com": [
+			{
+				"Category": "Ad Network Synchronization",
+				"Purpose": "Used for ad network synchronization by centralizing data and operations",
+				"Impact": "Diminish the scope of advertising campaigns",
+				"Reference": ["https://pubmatic.com/legal/platform-cookie-policy/"]
+			}
+		]
+	},
+	"TDCPM": {
+		".adsrvr.org": [
+			{
+				"Category": "Ad Tracking",
+				"Purpose": "The TDCPM cookie is used to register a unique ID that identifies a returning user's device. The ID is used for targeted ads.",
+				"Impact": "Ad performance will not work and users may experience repeated appearance of ads",
+				"Reference": ["https://oxfambelgie.be/sites/default/files/2022-06/targeting_cookies_obe.pdf"]
+			}
+		]
+	},
+	"UserMatchHistory": {
+		".linkedin.com": [
+			{
+				"Category": "Personalized Advertising",
+				"Purpose": "Used for id sync process. It stores the last sync time to avoid repeating the syncing process in a frequent manner",
+				"Impact": "Blocking these cookies will hinder user analytics, and personalized advertising, and limit LinkedIn's ability to optimize the user experience based on individual behavior.",
+				"Reference": ["https://www.linkedin.com/legal/l/cookie-table"]
+			}
+		]
+	},
+	"anj": {
+		".adnxs.com": [
+			{
+				"Category": "User Engagement and Analytics",
+				"Purpose": "Used to track user behavior and interactions as they navigate sites",
+				"Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on",
+				"Reference": ["https://about.ads.microsoft.com/en-us/solutions/xandr/digital-platform-cookie-policy"]
+			}
+		]
+	},
+	"bcookie": {
+		".linkedin.com": [
+			{
+				"Category": "Security",
+				"Purpose": "This cookie is used as a Browser Identifier cookie to uniquely identify devices accessing LinkedIn to detect abuse on the platform.",
+				"Impact": "Blocking this cookie will impact LinkedIn's ability to uniquely identify devices for abuse detection on the platform. LinkedIn uses this cookie to enhance security and identify potentially malicious or abusive activities.",
+				"Reference": ["https://www.linkedin.com/legal/l/cookie-table"]
+			}
+		]
+	},
+	"bscookie": {
+		".www.linkedin.com": [
+			{
+				"Category": "Security",
+				"Purpose": "This cookie is used for remembering that a logged-in user is verified by two-factor authentication and has previously logged in.",
+				"Impact": "This cookie likely helps streamline the login process for users who have already undergone 2FA. Blocking it might require users to go through 2FA more frequently or experience inconvenience during the login process.",
+				"Reference": ["https://www.linkedin.com/legal/l/cookie-table"]
+			}
+		]
+	},
+	"csync": {
+		".smartadserver.com": [
+			{
+				"Category": "Ad Network Synchronization",
+				"Purpose": "Used for ad network synchronization by centralizing data and operations. Optimises ad display based on the user's movement combined and various advertiser bids for displaying user ads.",
+				"Impact": "Diminish the scope of advertising campaigns",
+				"Reference": ["https://www.act.edu/cookie-policy"]
+			}
+		]
+	},
+	"data-ttd": {
+		".hb.yahoo.net": [
+			{
+				"Category": "Ad Personalization and Conversion Tracking",
+				"Purpose": "Used in the context of targeted advertising  by the entities defined by the domains of the cookies.",
+				"Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions.",
+				"Reference": [""]
+			}
+		]
+	},
+	"demdex": {
+		".demdex.net": [
+			{
+				"Category": "Targeted Marketing",
+				"Purpose": "Audience Manager sets this cookie to assign a unique ID to a site visitor. The demdex cookie helps the Audience Manager perform basic functions, such as visitor identification, ID synchronization, segmentation, modeling, reporting, and so on.",
+				"Impact": "Blocking these cookies can impact the functionality and effectiveness of Adobe Audience Manager in terms of tracking and targeting users across various channels which may result in limitations in the ability to create and leverage audience segments, which are crucial for personalized and targeted digital marketing efforts.",
+				"Reference": ["https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-am.html?lang=en"]
+			}
+		]
+	},
+	"dextp": {
+		".demdex.net": [
+			{
+				"Category": "Targeted Marketing",
+				"Purpose": "Audience Manager sets this cookie to record the last time it made a data synchronization call.",
+				"Impact": "Blocking these cookies can impact the functionality and effectiveness of Adobe Audience Manager in terms of tracking and targeting users across various channels which may result in limitations in the ability to create and leverage audience segments, which are crucial for personalized and targeted digital marketing efforts.",
+				"Reference": ["https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-am.html?lang=en"]
+			}
+		]
+	},
+	"dpm": {
+		".dpm.demdex.net": [
+			{
+				"Category": "Targeted Marketing",
+				"Purpose": "The dpm cookie, set under the Demdex domain, assigns a unique ID to each visiting user, hence allowing third-party advertisers to target these users with relevant ads.",
+				"Impact": "Blocking these cookies can impact the functionality and effectiveness of Adobe Audience Manager in terms of tracking and targeting users across various channels which may result in limitations in the ability to create and leverage audience segments, which are crucial for personalized and targeted digital marketing efforts.",
+				"Reference": ["https://mv-bim.com/eng/cookie-policy/"]
+			}
+		]
+	},
+	"fr": {
+		".facebook.com": [
+			{
+				"Category": "Ad Personalization & Retargeting",
+				"Purpose": "Enables ad delivery or retargeting by tracking user",
+				"Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits.",
+				"Reference": ["https://www.ey.com/en_gl/cookie-policy", "https://cookiedatabase.org/cookie/facebook/fr/", "https://wpstackable.com/cookie-policy/"]
+			}
+		]
+	},
+	"li_sugr": {
+		".linkedin.com": [
+			{
+				"Category": "Personalized Advertising",
+				"Purpose": "This cookie is used to make a probabilistic match of a user's identity outside the Designated Countries.",
+				"Impact": "Blocking these cookies will hinder user analytics, and personalized advertising, and limit LinkedIn's ability to optimize the user experience based on individual behavior.",
+				"Reference": ["https://www.linkedin.com/legal/l/cookie-table"]
+			}
+		]
+	},
+	"lidc": {
+		".linkedin.com": [
+			{
+				"Category": "Load Balancing",
+				"Purpose": "This cookie is used to facilitate data center selection.",
+				"Impact": "Blocking these cookies will cause session disruption and performance issues.",
+				"Reference": ["https://www.linkedin.com/legal/l/cookie-table"]
+			}
+		]
+	},
+	"muc_ads": {
+		"t.co": [
+			{
+				"Category": "Social Media-Integrated Advertising",
+				"Purpose": "Collects data on user behavior and interaction in order to optimize the website and make advertisements on the website more relevant.",
+				"Impact": "Prevent Twitter from gathering user information from the site the user is visiting.",
+				"Reference": ["https://help.twitter.com/en/rules-and-policies/x-cookies"]
+			}
+		]
+	},
+	"personalization_id": {
+		".twitter.com": [
+			{
+				"Category": "Ad Personalization",
+				"Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
+				"Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits.",
+				"Reference": [""]
+			},
+			{
+				"Category": "Social Media-Integrated Advertising",
+				"Purpose": "Sets a unique value by which Twitter identifies users. The collected information is used to personalize Twitter services, including ads, trends, and suggestions.",
+				"Impact": "Impacts Twitter by preventing it from gathering user information from the site the user is visiting.",
+				"Reference": ["https://help.twitter.com/en/rules-and-policies/x-cookies"]
+			}
+		]
+	},
+	"pubsyncexp": {
+		".pubmatic.com": [
+			{
+				"Category": "Ad Performance & Frequency Capping",
+				"Purpose": "Used for measuring the performance of ads across multiple sites and also controlling the showing of repeated ads to users",
+				"Impact": "Ad performance will not work and users may experience repeated appearance of ads",
+				"Reference": [""]
+			},
+			{
+				"Category": "Real-Time Bidding & Advertiser Matching",
+				"Purpose": "Sets a unique ID for the visitor. Third-party advertisers use it to target them with relevant ads. Third-party advertisement hubs provide this pairing service, facilitating real-time bidding for advertisers.",
+				"Impact": "Add complications with real-time ad bidding system and advertiser-to-user matching",
+				"Reference": [""]
+			}
+		]
+	},
+	"s_vi_x7Cmgx7Ebx23jkxxx23zkx7Dz": {
+		".2o7.net": [
+			{
+				"Category": "User Engagement and Analytics",
+				"Purpose": "These cookies are used to count visits and traffic sources in order to measure and improve the performance of the site. They help to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous.",
+				"Impact": "Prevent knowing when a user has visited the site, and will not be able to monitor its performance.",
+				"Reference": ["https://www.rybelsus.info/data-privacy-and-user-rights/cookie-list.html"]
+			}
+		]
+	},
+	"test_cookie": {
+		".doubleclick.net": [
+			{
+				"Category": "Cookie Acceptance Verification",
+				"Purpose": "Used to check if the user's browser supports cookies.",
+				"Impact": "Blocking these cookies will impact the test results of browser support for cookies.",
+				"Reference": ["https://www.patrolbase.co.uk/cookie-preferences"]
+			}
+		]
+	},
+	"uid": {
+		".criteo.com": [
+			{
+				"Category": "Ad Personalization and Conversion Tracking",
+				"Purpose": "Collects anonymous data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads..",
+				"Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions.",
+				"Reference": ["https://ailab.criteo.com/cookie-declaration/"]
+			}
+		]
+	},
+	"uids": {
+		".adnxs.com": [
+			{
+				"Category": "Ad Bidding",
+				"Purpose": "It contains base64-encoded values that enable Prebid Server demand partners to distinguish browsers and devices, facilitating the selection of advertisements for delivery and measuring their performance for attribution and payment on the platform.",
+				"Impact": "Disrupt the ability of Prebid Server demand partners to select and measure the performance of advertisements, affecting ad delivery and attribution on the platform running the prebid.org software.",
+				"Reference": ["https://about.ads.microsoft.com/en-us/solutions/xandr/digital-platform-cookie-policy"]
+			}
+		]
+	},
+	"univ_id": {
+		".openx.net": [
+			{
+				"Category": "Ad Personalization",
+				"Purpose": "Used to identify the user devices on repeat visits across different sites that use the same ad network.",
+				"Impact": "Reduce the effectiveness of ad targeting based on user profiles and previous visits.",
+				"Reference": [""]
+			}
+		]
+	},
+	"visitor-id": {
+		".hb.yahoo.net": [
+			{
+				"Category": "User Engagement and Analytics",
+				"Purpose": "Used to track user behavior and interactions as they navigate sites",
+				"Impact": "Prevent site owners from gathering usage stat for visitors to their sites, such as number of visits, time spent on the site, targeted advertising interests, and so on",
+				"Reference": [""]
+			}
+		]
+	}
 }
