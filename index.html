@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookie Details</title>
-    <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
     <style>
         main {
             height: 100vh;
@@ -72,6 +72,9 @@
             }
 
             function getCookieDetailsCardHTML(cookieDetail) {
+                const references = cookieDetail.cookieReferences.map((link) => {
+                    return '<li><a href="' + link + '" target="_blank">' + link + '</a></li>';
+                }).join('');
                 return `
                     <div class="col">
                         <div class="card">
@@ -79,13 +82,25 @@
                                 <h6 class="card-title">
                                     ${cookieDetail.cookieName} (${cookieDetail.cookieDomain})
                                 </h6>
-                                <p class="card-text">
-                                    <strong>Category: </strong> ${cookieDetail.cookieCategory}
-                                    <br>
-                                    <strong>Purpose: </strong> ${cookieDetail.cookiePurpose}
-                                    <br>
-                                    <strong>Impact: </strong> ${cookieDetail.cookieImpact}
-                                </p>
+                                <div class="card-text">
+                                    <ul style="padding-left: 13px;">
+                                        <li>
+                                            <strong>Category: </strong> ${cookieDetail.cookieCategory}
+                                        </li>
+                                        <li>
+                                            <strong>Purpose: </strong> ${cookieDetail.cookiePurpose}
+                                        </li>
+                                        <li>
+                                            <strong>Impact: </strong> ${cookieDetail.cookieImpact}
+                                        </li>
+                                        <li>
+                                            <strong>Reference: </strong>
+                                            <ul style="padding-left: 13px;">
+                                                ${references}
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -104,6 +119,7 @@
                                 cookieCategory: cookieDetailsItem.Category,
                                 cookiePurpose: cookieDetailsItem.Purpose,
                                 cookieImpact: cookieDetailsItem.Impact,
+                                cookieReferences: cookieDetailsItem.Reference,
                             });
                         });
                     }
@@ -118,6 +134,7 @@
                                         cookieCategory: cookieDetailsItem.Category,
                                         cookiePurpose: cookieDetailsItem.Purpose,
                                         cookieImpact: cookieDetailsItem.Impact,
+                                        cookieReferences: cookieDetailsItem.Reference,
                                     });
                                 });
                             }
@@ -136,6 +153,7 @@
                                                 cookieCategory: cookieDetailsItem.Category,
                                                 cookiePurpose: cookieDetailsItem.Purpose,
                                                 cookieImpact: cookieDetailsItem.Impact,
+                                                cookieReferences: cookieDetailsItem.Reference,
                                             });
                                         });
                                     }
