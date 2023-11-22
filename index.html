@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,35 +11,37 @@
         main {
             height: 100vh;
         }
+
         .custom-shadow {
             box-shadow: rgba(149, 157, 165, 0.18) 0px 8px 24px;
         }
+
         .custom-h-100 {
             min-height: 100vh;
             height: 100%;
         }
+
         .card {
             height: 100%;
         }
+
         .card-text {
             font-size: 14px;
         }
-        #clear-btn {
-            color: white;
-            display: none;
-        }
+
         #result-container {
             max-height: 580px;
             overflow: scroll;
         }
     </style>
 </head>
+
 <body>
     <main class="container">
         <div class="w-100 custom-h-100">
             <div class="w-100 custom-h-100 d-flex justify-content-center align-items-center">
                 <div class="w-100 p-4 custom-shadow rounded my-5">
-                
+
                     <!-- Search Section -->
                     <div class="d-flex mb-3">
                         <div class="form-floating w-100 me-3">
@@ -49,8 +52,8 @@
                             <input type="text" class="form-control" id="cookie-domain" placeholder="">
                             <label for="cookie-domain">Cookie Domain</label>
                         </div>
-                        <button class="btn btn-danger me-3" id="clear-btn">Clear</button>
-                        <button class="btn btn-primary" id="submit-btn">Submit</button>
+                        <button class="btn btn-danger me-3 disabled" id="clear-btn">Clear</button>
+                        <button class="btn btn-primary disabled" id="submit-btn">Submit</button>
                     </div>
 
                     <!-- Result Section -->
@@ -63,7 +66,7 @@
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", async function() {
+        document.addEventListener("DOMContentLoaded", async function () {
             const cookieObj = await fetchCookieDetails();
             const clearBtn = document.getElementById("clear-btn");
             const submitBtn = document.getElementById("submit-btn");
@@ -73,17 +76,21 @@
             clearBtn.addEventListener('click', () => {
                 cookieName.value = '';
                 cookieDomain.value = '';
+                clearBtn.classList.add('disabled');
+                submitBtn.classList.add('disabled');
             });
 
-            submitBtn.addEventListener('click', async function() {
+            submitBtn.addEventListener('click', async function () {
                 getCookieDetailsResult();
             });
 
             cookieName.addEventListener('input', (event) => {
-                if (cookieName.value === '') {
-                    clearBtn.style.display = 'none';
+                if (cookieDomain.value === '' && cookieName.value === '') {
+                    clearBtn.classList.add('disabled');
+                    submitBtn.classList.add('disabled');
                 } else {
-                    clearBtn.style.display = 'block';
+                    clearBtn.classList.remove('disabled');
+                    submitBtn.classList.remove('disabled');
                 }
             });
 
@@ -94,10 +101,12 @@
             });
 
             cookieDomain.addEventListener('input', (event) => {
-                if (cookieDomain.value === '') {
-                    clearBtn.style.display = 'none';
+                if (cookieDomain.value === '' && cookieName.value === '') {
+                    clearBtn.classList.add('disabled');
+                    submitBtn.classList.add('disabled');
                 } else {
-                    clearBtn.style.display = 'block';
+                    clearBtn.classList.remove('disabled');
+                    submitBtn.classList.remove('disabled');
                 }
             });
 
@@ -200,7 +209,7 @@
                         }
                     }
                 } else {
-                    for(var cookieName in cookieObj) {
+                    for (var cookieName in cookieObj) {
                         for (var cookieDomain in cookieObj[cookieName]) {
                             let lowerCaseCookieDomain = cookieDomain.toLowerCase();
                             if (lowerCaseCookieDomain === cookieDomainValue) {
@@ -224,24 +233,24 @@
             function getCookieDetailsResult() {
                 const cookieNameValue = (cookieName.value).trim();
                 const cookieDomainValue = (cookieDomain.value).trim();
-                const resultContainer = document.getElementById('result-container');
-                let cookieDetailsCardHTML = '';
 
-                if ((cookieNameValue !== "") || (cookieDomainValue !== "")) {
-                    const cookieDetails = filterCookieDetails(cookieNameValue.toLowerCase(), cookieDomainValue.toLowerCase());
-                    if (cookieDetails.length > 0) {
-                        cookieDetailsCardHTML += `
+                let cookieDetailsCardHTML = '';
+                const resultContainer = document.getElementById('result-container');
+                const cookieDetails = filterCookieDetails(cookieNameValue.toLowerCase(), cookieDomainValue.toLowerCase());
+
+                if (cookieDetails.length > 0) {
+                    cookieDetailsCardHTML += `
                             <div class="border-top pt-3">
                                 <div class="row row-cols-3 g-3">
                         `;
 
-                        cookieDetails.forEach((cookieDetail) => {
-                            cookieDetailsCardHTML += getCookieDetailsCardHTML(cookieDetail);
-                        });
+                    cookieDetails.forEach((cookieDetail) => {
+                        cookieDetailsCardHTML += getCookieDetailsCardHTML(cookieDetail);
+                    });
 
-                        cookieDetailsCardHTML += `</div></div>`;
-                    } else {
-                        cookieDetailsCardHTML += `
+                    cookieDetailsCardHTML += `</div></div>`;
+                } else {
+                    cookieDetailsCardHTML += `
                             <div class="card">
                                 <div class="card-body">
                                     <p class="card-text text-center">
@@ -250,22 +259,12 @@
                                 </div>
                             </div>
                         `;
-                    }
-                } else {
-                    cookieDetailsCardHTML += `
-                        <div class="card">
-                            <div class="card-body">
-                                <p class="card-text text-center">
-                                    No input was found.
-                                </p>
-                            </div>
-                        </div>
-                    `;
                 }
 
-                resultContainer.innerHTML =  cookieDetailsCardHTML;
+                resultContainer.innerHTML = cookieDetailsCardHTML;
             }
         });
     </script>
 </body>
+
 </html>
