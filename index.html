@@ -23,6 +23,14 @@
         .card-text {
             font-size: 14px;
         }
+        #clear-btn {
+            color: white;
+            display: none;
+        }
+        #result-container {
+            max-height: 580px;
+            overflow: scroll;
+        }
     </style>
 </head>
 <body>
@@ -41,6 +49,7 @@
                             <input type="text" class="form-control" id="cookie-domain" placeholder="">
                             <label for="cookie-domain">Cookie Domain</label>
                         </div>
+                        <button class="btn btn-danger me-3" id="clear-btn">Clear</button>
                         <button class="btn btn-primary" id="submit-btn">Submit</button>
                     </div>
 
@@ -56,23 +65,45 @@
     <script>
         document.addEventListener("DOMContentLoaded", async function() {
             const cookieObj = await fetchCookieDetails();
+            const clearBtn = document.getElementById("clear-btn");
             const submitBtn = document.getElementById("submit-btn");
             const cookieName = document.getElementById("cookie-name");
             const cookieDomain = document.getElementById("cookie-domain");
+
+            clearBtn.addEventListener('click', () => {
+                cookieName.value = '';
+                cookieDomain.value = '';
+            });
 
             submitBtn.addEventListener('click', async function() {
                 getCookieDetailsResult();
             });
 
-            cookieName.addEventListener('keypress', (event) => { 
-                if (event.key === 'Enter') {
-                    getCookieDetailsResult()
+            cookieName.addEventListener('input', (event) => {
+                if (cookieName.value === '') {
+                    clearBtn.style.display = 'none';
+                } else {
+                    clearBtn.style.display = 'block';
                 }
             });
 
-            cookieDomain.addEventListener('keypress', (event) => {
-                if(event.key === 'Enter') {
-                    getCookieDetailsResult()
+            cookieName.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    getCookieDetailsResult();
+                }
+            });
+
+            cookieDomain.addEventListener('input', (event) => {
+                if (cookieDomain.value === '') {
+                    clearBtn.style.display = 'none';
+                } else {
+                    clearBtn.style.display = 'block';
+                }
+            });
+
+            cookieDomain.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    getCookieDetailsResult();
                 }
             });
 
@@ -214,7 +245,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <p class="card-text text-center">
-                                        Nothing found in the database.
+                                        Nothing was found in the database.
                                     </p>
                                 </div>
                             </div>
@@ -225,7 +256,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <p class="card-text text-center">
-                                    No input found.
+                                    No input was found.
                                 </p>
                             </div>
                         </div>
