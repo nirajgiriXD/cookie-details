@@ -3,6 +3,7 @@
 Get detailed information about cookies.  
 Site: https://nirajgirixd.github.io/cookie-details/
 
-## Related
+## Related Sites
 
-Site: https://nirajgirixd.github.io/sitemap-compiler/
+- https://nirajgirixd.github.io/sitemap-compiler/
+- https://sitemap.superintegratedapp.com/
