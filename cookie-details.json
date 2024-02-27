@@ -801,7 +801,15 @@
 				"Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions.",
 				"Reference": ["https://ailab.criteo.com/cookie-declaration/"]
 			}
-		]
+		],
+		".adform.net": [
+			{
+				"Category": "Ad Personalization and Conversion Tracking",
+				"Purpose": "Contains a unique ID to identify a user",
+				"Impact": "Nothing was found in the cookie database.",
+				"Reference": ["https://site.adform.com/privacy-center/overview"]
+			}
+		],
 	},
 	"cid": {
 		"adform.net": [
