@@ -3,7 +3,7 @@
 		"www.googletagmanager.com": [
 			{
 				"Category": "Analytics",
-				"Purpose": "Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.",
+				"Purpose": "Registers statistical data on users' behavior on the website. Used for internal analytics by the website operator.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://privacy.google.com/take-control.html"]
 			}
@@ -25,7 +25,7 @@
 		"cookiebot.com": [
 			{
 				"Category": "Functional",
-				"Purpose": "Enables sharing cookie preferences across domains / websites",
+				"Purpose": "Enables sharing cookie preferences across domains/websites",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://www.cookiebot.com/en/cookie-declaration/"
@@ -209,7 +209,7 @@
 		"google.com": [
 			{
 				"Category": "Functional",
-				"Purpose": "Google reCAPTCHA sets a necessary cookie (_GRECAPTCHA) when executed for the purpose of providing its risk analysis.",
+				"Purpose": "Google reCAPTCHA sets a necessary cookie (_GRECAPTCHA) when executed to provide its risk analysis.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://privacy.google.com/take-control.html"]
 			}
@@ -589,7 +589,7 @@
 		".doubleclick.net": [
 			{
 				"Category": "Ad Campaign Analysis and Optimization",
-				"Purpose": "This cookie is used by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.",
+				"Purpose": "This cookie is used by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads to measure the efficacy of an ad and to present targeted ads to the user.",
 				"Impact": "Blocking these cookies will impact the ability to measure ad engagement and conversion for media content will be severely limited. Websites relying on these cookies for user authentication and personalized content delivery will experience challenges.",
 				"Reference": ["https://www.patrolbase.co.uk/cookie-preferences"]
 			}
@@ -659,7 +659,7 @@
 		"doubleclick.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "This cookie is used for targeting, analyzing, and optimization of ad campaigns in DoubleClick/Google Marketing Suite",
+				"Purpose": "This cookie is used for targeting, analyzing, and optimizing ad campaigns in DoubleClick/Google Marketing Suite",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://privacy.google.com/take-control.html"]
 			}
@@ -743,7 +743,7 @@
 		".criteo.com": [
 			{
 				"Category": "Ad Personalization and Conversion Tracking",
-				"Purpose": "Collects anonymous data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads..",
+				"Purpose": "Collects anonymous data related to the user's visits to the website, such as the number of visits, average time spent on the website, and what pages have been loaded, to display targeted ads.",
 				"Impact": "Decrease tracking efficiency for ad targeting and therefore should impact conversions.",
 				"Reference": ["https://ailab.criteo.com/cookie-declaration/"]
 			}
@@ -1449,7 +1449,7 @@
 		"microsoft.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Contains information that Microsoft account uses within its pages in relation to child accounts.",
+				"Purpose": "Contains information that Microsoft account uses within its pages about child accounts.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://account.microsoft.com/privacy"]
 			}
@@ -1459,7 +1459,7 @@
 		"microsoft.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Contains information that Microsoft account uses within its pages in relation to child accounts.",
+				"Purpose": "Contains information that Microsoft account uses within its pages about child accounts.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://account.microsoft.com/privacy"]
 			}
@@ -1469,7 +1469,7 @@
 		"microsoft.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Contains information that Microsoft account uses within its pages in relation to child accounts.",
+				"Purpose": "Contains information that Microsoft account uses within its pages about child accounts.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://account.microsoft.com/privacy"]
 			}
@@ -1479,7 +1479,7 @@
 		"microsoft.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Contains information that Microsoft account uses within its pages in relation to child accounts.",
+				"Purpose": "Contains information that Microsoft account uses within its pages about child accounts.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://account.microsoft.com/privacy"]
 			}
@@ -1489,7 +1489,7 @@
 		"microsoft.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Contains information that Microsoft account uses within its pages in relation to child accounts.",
+				"Purpose": "Contains information that Microsoft account uses within its pages about child accounts.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://account.microsoft.com/privacy"]
 			}
@@ -1749,7 +1749,7 @@
 		"clarity.ms": [
 			{
 				"Category": "Analytics",
-				"Purpose": " This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visited in an anonymous form.",
+				"Purpose": " This cookie is installed by Microsoft Clarity to store information on how visitors use a website and help in creating an analytics report of how the website is doing. The data collected includes the number of visitors, the source where they have come from, and the pages visited in an anonymous form.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://account.microsoft.com/privacy"]
 			}
@@ -1759,7 +1759,7 @@
 		"clarity.ms": [
 			{
 				"Category": "Analytics",
-				"Purpose": "This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visited in an anonymous form.",
+				"Purpose": "This cookie is installed by Microsoft Clarity to store information on how visitors use a website and help in creating an analytics report of how the website is doing. The data collected includes the number of visitors, the source where they have come from, and the pages visited in an anonymous form.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://account.microsoft.com/privacy"]
 			}
@@ -1797,7 +1797,7 @@
 		"twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "This cookie is set by X to identify and track the website visitor. Registers if a users is signed in the X platform and collects information about ad preferences. ",
+				"Purpose": "This cookie is set by X to identify and track the website visitor. Registers if a user is signed in the X platform and collects information about ad preferences. ",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://help.twitter.com/nl/safety-and-security#ads-and-data-privacy"
@@ -1827,7 +1827,7 @@
 		"twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.",
+				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. The cookies do not provide us with any confidential information relating to your account.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://twitter.com/en/privacy"]
 			}
@@ -1837,7 +1837,7 @@
 		"twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Twitter uses these cookies to support plugin integration with our website. If you use the Tweet plugin and log into your X account, X will set some of these cookies to remember that you are logged in. X will also use cookies for their own analytics purposes.",
+				"Purpose": "Twitter uses these cookies to support plugin integration with our website. If you use the Tweet plugin and log into your X account, X will set some of these cookies to remember that you are logged in. X will also use cookies for their analytics purposes.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://twitter.com/en/privacy"]
 			}
@@ -1867,7 +1867,7 @@
 		"t.co": [
 			{
 				"Category": "Social Media-Integrated Advertising",
-				"Purpose": "Collects data on user behavior and interaction in order to optimize the website and make advertisements on the website more relevant.",
+				"Purpose": "Collects data on user behavior and interaction to optimize the website and make advertisements on the website more relevant.",
 				"Impact": "Prevent Twitter from gathering user information from the site the user is visiting.",
 				"Reference": [
 					"https://help.twitter.com/en/rules-and-policies/x-cookies"
@@ -1879,7 +1879,7 @@
 		"twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "This cookie is set due to X integration and sharing capabilities for the social media.",
+				"Purpose": "This cookie is set due to X integration and sharing capabilities for social media.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://twitter.com/en/privacy"]
 			}
@@ -1889,7 +1889,7 @@
 		".twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.",
+				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. The cookies do not provide us with any confidential information relating to your account.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://twitter.com/en/privacy"]
 			}
@@ -1899,7 +1899,7 @@
 		".twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.",
+				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. The cookies do not provide us with any confidential information relating to your account.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://twitter.com/en/privacy"]
 			}
@@ -1909,7 +1909,7 @@
 		".twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.",
+				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. The cookies do not provide us with any confidential information relating to your account.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://twitter.com/en/privacy"]
 			}
@@ -1919,7 +1919,7 @@
 		".twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.",
+				"Purpose": "These cookies enable us to track visitor activity from our X ads on our website, and also to allow users to share content from our websites. The cookies do not provide us with any confidential information relating to your account.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://twitter.com/en/privacy"]
 			}
@@ -1929,7 +1929,7 @@
 		".twitter.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "These are third-party X cookies. These cookies enable users, if they wish, to log in to their X account share content from our websites with their friends. These cookies do not allow us access to your accounts or provide us with any confidential information relating to your accounts. These cookies also allow a news feed of tweets to appear on the website.",
+				"Purpose": "These are third-party X cookies. These cookies enable users, if they wish, to log in to their X account and share content from our websites with their friends. These cookies do not allow us access to your accounts or provide us with any confidential information relating to your accounts. These cookies also allow a news feed of tweets to appear on the website.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://twitter.com/en/privacy"]
 			}
@@ -2409,7 +2409,7 @@
 		".linkedin.com": [
 			{
 				"Category": "Personalized Advertising",
-				"Purpose": "Used for id sync process. It stores the last sync time to avoid repeating the syncing process in a frequent manner",
+				"Purpose": "Used for id sync process. It stores the last sync time to avoid frequently repeating the syncing process",
 				"Impact": "Blocking these cookies will hinder user analytics, and personalized advertising, and limit LinkedIn's ability to optimize the user experience based on individual behavior.",
 				"Reference": ["https://www.linkedin.com/legal/l/cookie-table"]
 			}
@@ -2749,7 +2749,7 @@
 		"pubmatic.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "It is used to track when the cookies were updated on the browser. It is used to limit the number of calls to server-side cookie store",
+				"Purpose": "It is used to track when the cookies were updated on the browser. It is used to limit the number of calls to the server-side cookie store",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://pubmatic.com/legal/privacy/"]
 			}
@@ -2859,7 +2859,7 @@
 		"pubmatic.com": [
 			{
 				"Category": "Functional",
-				"Purpose": "This cookie stores the period of time after which ad frequency counters reset.",
+				"Purpose": "This cookie stores the period after which ad frequency counters reset.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://pubmatic.com/legal/privacy/"]
 			}
@@ -2879,7 +2879,7 @@
 		"pubmatic.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "This cookie stores information regarding the number of times that a partner’s pixel is loaded by a user’s browser. This enables us to cap the number of times that a pixel is used to record a user’s visit to a website within a specific period of time.",
+				"Purpose": "This cookie stores information regarding the number of times that a partner’s pixel is loaded by a user’s browser. This enables us to cap the number of times that a pixel is used to record a user’s visit to a website within a specific time.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://pubmatic.com/legal/privacy/"]
 			}
@@ -3421,7 +3421,7 @@
 		"outbrain.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.",
+				"Purpose": "Used to present the visitor with relevant content and advertisement - The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://www.outbrain.com/legal/privacy#privacy-policy"
@@ -3825,7 +3825,7 @@
 		"crwdcntrl.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, to enable media and marketing agencies to structure and understand their target groups to enable customized online advertising. ",
+				"Purpose": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website, and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, to enable media and marketing agencies to structure and understand their target groups to enable customized online advertising.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://www.lotame.com/about-lotame/privacy/lotames-products-services-privacy-policy/"
@@ -3837,7 +3837,7 @@
 		"crwdcntrl.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, to enable media and marketing agencies to structure and understand their target groups to enable customized online advertising. ",
+				"Purpose": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website, and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, to enable media and marketing agencies to structure and understand their target groups to enable customized online advertising.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://www.lotame.com/about-lotame/privacy/lotames-products-services-privacy-policy/"
@@ -3849,7 +3849,7 @@
 		"crwdcntrl.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, to enable media and marketing agencies to structure and understand their target groups to enable customized online advertising.",
+				"Purpose": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website, and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, to enable media and marketing agencies to structure and understand their target groups to enable customized online advertising.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://www.lotame.com/about-lotame/privacy/lotames-products-services-privacy-policy/"
@@ -3883,7 +3883,7 @@
 		"bluekai.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Registers anonymized user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimizing ad display based on the user's movement on websites that use the same ad network.",
+				"Purpose": "Registers anonymized user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, to optimize ad display based on the user's movement on websites that use the same ad network.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html"
@@ -3945,7 +3945,7 @@
 		"rlcdn.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Collects anonymous data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.",
+				"Purpose": "Collects anonymous data related to the user's visits to the website, such as the number of visits, average time spent on the website, and what pages have been loaded, to display targeted ads.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://www.towerdata.com/privacy-policy"]
 			}
@@ -3997,7 +3997,7 @@
 		"stickyadstv.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "The uid cookie is used by FreeWheel to generate statistics to show how many people may have seen a particular ad. Whereas the other cookies recognize returning users for the purpose of presenting users with relevant advertisements.",
+				"Purpose": "The uid cookie is used by FreeWheel to generate statistics to show how many people may have seen a particular ad. Whereas the other cookies recognize returning users to present users with relevant advertisements.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://www.freewheel.com/privacy-policy"]
 			}
@@ -4077,7 +4077,7 @@
 		"crwdcntrl.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, to enable media and marketing agencies to structure and understand their target groups to enable customized online advertising.",
+				"Purpose": "Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website, and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, to enable media and marketing agencies to structure and understand their target groups to enable customized online advertising.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://www.lotame.com/about-lotame/privacy/lotames-products-services-privacy-policy/"
@@ -5105,7 +5105,7 @@
 		"prf.hn": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Partnerize's tracking cookie, deployed either upon a user's clicking of a link on a partner website, or upon the loading of a customer's image to a partner website.",
+				"Purpose": "Partnerize's tracking cookie, deployed either upon a user's clicking of a link on a partner website or upon the loading of a customer's image to a partner website.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://partnerize.com/privacy-policy/"]
 			}
@@ -5255,7 +5255,7 @@
 		"livechatinc.com": [
 			{
 				"Category": "Functional",
-				"Purpose": "Used to hide the user's customisation of LiveChat.",
+				"Purpose": "Used to hide the user's customization of LiveChat.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://www.livechat.com/legal/privacy-policy/"]
 			}
@@ -5623,7 +5623,7 @@
 		"vidoomy.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Used in context with video-advertisement. The cookie limits the number of times a user is shown the same advertisement. The cookie is also used to ensure relevance of the video-advertisement to the specific user.",
+				"Purpose": "Used in context with video advertisement. The cookie limits the number of times a user is shown the same advertisement. The cookie is also used to ensure the relevance of the video-advertisement to the specific user.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://www.vidoomy.com/privacypolicy-en.html"]
 			}
@@ -5939,7 +5939,7 @@
 		".adhese.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)",
+				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent on consent for all parties involved (Accountholder, SSP, Adhese)",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://adhese.com/images/Privacy%20Policy_Doggybites.pdf"
@@ -5951,7 +5951,7 @@
 		".adhese.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)",
+				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent on consent for all parties involved (Accountholder, SSP, Adhese)",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://adhese.com/images/Privacy%20Policy_Doggybites.pdf"
@@ -5963,7 +5963,7 @@
 		".adhese.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)",
+				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent on consent for all parties involved (Accountholder, SSP, Adhese)",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://adhese.com/images/Privacy%20Policy_Doggybites.pdf"
@@ -5975,7 +5975,7 @@
 		".adhese.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)",
+				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent on consent for all parties involved (Accountholder, SSP, Adhese)",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://adhese.com/images/Privacy%20Policy_Doggybites.pdf"
@@ -5987,7 +5987,7 @@
 		".adhese.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)",
+				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent on consent for all parties involved (Accountholder, SSP, Adhese)",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://adhese.com/images/Privacy%20Policy_Doggybites.pdf"
@@ -5999,7 +5999,7 @@
 		".adhese.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)",
+				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent on consent for all parties involved (Accountholder, SSP, Adhese)",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://adhese.com/images/Privacy%20Policy_Doggybites.pdf"
@@ -6011,7 +6011,7 @@
 		".adhese.com": [
 			{
 				"Category": "Marketing",
-				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)",
+				"Purpose": "When Adhese is used as a server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent on consent for all parties involved (Accountholder, SSP, Adhese)",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://adhese.com/images/Privacy%20Policy_Doggybites.pdf"
@@ -6305,7 +6305,7 @@
 		".yandex.ru": [
 			{
 				"Category": "Analytics",
-				"Purpose": "Registers data on visitors' website behaviour. This is used for internal analysis and website optimization.",
+				"Purpose": "Registers data on visitors' website behavior. This is used for internal analysis and website optimization.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://yandex.com/support/metrica/general/gdpr.html"
@@ -6317,7 +6317,7 @@
 		".yandex.ru": [
 			{
 				"Category": "Analytics",
-				"Purpose": "Registers data on visitors' website behaviour. This is used for internal analysis and website optimization.",
+				"Purpose": "Registers data on visitors' website behavior. This is used for internal analysis and website optimization.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": [
 					"https://yandex.com/support/metrica/general/gdpr.html"
