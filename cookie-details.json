@@ -629,7 +629,7 @@
 		"doubleclick.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "This cookie is used to link your activity across devices if you’ve previously signed in to your Google Account on another device. We do this to coordinate that the ads you see across devices and measure conversion events.",
+				"Purpose": "This cookie is used to link your activity across devices if you’ve previously signed in to your Google Account on another device. We do this to coordinate the ads you see across devices and measure conversion events.",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://privacy.google.com/take-control.html"]
 			}
@@ -639,8 +639,8 @@
 		"doubleclick.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Store and track conversions",
-				"Impact": "Nothing was found in the cookie database.",
+				"Purpose": "Store and track ad conversions",
+				"Impact": "The ability to accurately measure ad campaign effectiveness and track conversions will be severely limited",
 				"Reference": ["https://privacy.google.com/take-control.html"]
 			}
 		]
@@ -659,7 +659,7 @@
 		"doubleclick.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "This cookie is used for targeting, analyzing and optimisation of ad campaigns in DoubleClick/Google Marketing Suite",
+				"Purpose": "This cookie is used for targeting, analyzing, and optimization of ad campaigns in DoubleClick/Google Marketing Suite",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://privacy.google.com/take-control.html"]
 			}
@@ -721,7 +721,7 @@
 		"adform.net": [
 			{
 				"Category": "Marketing",
-				"Purpose": "Used to determine if the browser of the user accepts third party cookies or not",
+				"Purpose": "Used to determine if the browser of the user accepts third-party cookies or not",
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://site.adform.com/privacy-center/overview"]
 			}
