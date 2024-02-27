@@ -9,6 +9,60 @@
 			}
 		]
 	},
+	"XANDR_PANID": {
+		".adnxs.com": [
+			{
+				"Category": "Marketing",
+				"Purpose": "This cookie registers data on the visitor. The information is used to optimize advertisement relevance.",
+				"Impact": "Nothing was found in the cookie database.",
+				"Reference": ["https://about.ads.microsoft.com/en-us/solutions/xandr/platform-privacy-policy"]
+			}
+		]
+	},
+	"icu": {
+		".adnxs.com": [
+			{
+				"Category": "Marketing",
+				"Purpose": "This cookie is used to select ads and limit the number of times a user sees a particular ad. It contains information such as the number of times an ad has been shown, how recently an ad has been shown, or how many total ads have been shown.",
+				"Impact": "Nothing was found in the cookie database.",
+				"Reference": ["https://about.ads.microsoft.com/en-us/solutions/xandr/platform-privacy-policy"]
+			}
+		]
+	},
+	"receive-cookie-deprecation": {
+		".adnxs.com": [
+			{
+				"Category": "Functional",
+				"Purpose": "This cookie ensures browsers in an experiment group of the Chrome-facilitated testing period include the Sec-Cookie-Deprecation request header as soon as it becomes available.",
+				"Impact": "Nothing was found in the cookie database.",
+				"Reference": ["https://privacy.google.com/take-control.html"]
+			}
+		],
+		".casalemedia.com": [
+			{
+				"Category": "Functional",
+				"Purpose": "This cookie ensures browsers in an experiment group of the Chrome-facilitated testing period include the Sec-Cookie-Deprecation request header as soon as it becomes available.",
+				"Impact": "Nothing was found in the cookie database.",
+				"Reference": ["https://privacy.google.com/take-control.html"]
+			}
+		],
+		".openx.net": [
+			{
+				"Category": "Functional",
+				"Purpose": "This cookie ensures browsers in an experiment group of the Chrome-facilitated testing period include the Sec-Cookie-Deprecation request header as soon as it becomes available.",
+				"Impact": "Nothing was found in the cookie database.",
+				"Reference": ["https://privacy.google.com/take-control.html"]
+			}
+		],
+		".rubiconproject.com": [
+			{
+				"Category": "Functional",
+				"Purpose": "This cookie ensures browsers in an experiment group of the Chrome-facilitated testing period include the Sec-Cookie-Deprecation request header as soon as it becomes available.",
+				"Impact": "Nothing was found in the cookie database.",
+				"Reference": ["https://privacy.google.com/take-control.html"]
+			}
+		],
+	},
 	"CookieConsent": {
 		"cookiebot.com": [
 			{
