@@ -600,7 +600,7 @@
 			{
 				"Category": "Marketing",
 				"Purpose": "This cookie is used for targeting, analyzing, and optimization of ad campaigns in DoubleClick/Google Marketing Suite ",
-				"Impact": "Nothing was found in the cookie database.",
+				"Impact": "Hinders the effectiveness of personalized advertising and campaign performance measurement",
 				"Reference": ["https://privacy.google.com/take-control.html"]
 			}
 		]
