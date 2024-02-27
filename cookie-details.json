@@ -9,6 +9,16 @@
 			}
 		]
 	},
+	"pid": {
+		".smartadserver.com": [
+			{
+				"Category": "Marketing",
+				"Purpose": "Unique ID associated with an end-user (according to a domain and browser).",
+				"Impact": "Nothing was found in the cookie database.",
+				"Reference": ["https://equativ.com/end-users-privacy-policy/"]
+			}
+		]
+	},
 	"XANDR_PANID": {
 		".adnxs.com": [
 			{
