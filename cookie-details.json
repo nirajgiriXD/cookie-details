@@ -2423,6 +2423,14 @@
 				"Impact": "Nothing was found in the cookie database.",
 				"Reference": ["https://www.linkedin.com/legal/privacy-policy"]
 			}
+		],
+		".paypal.com": [
+			{
+				"Category": "Functional",
+				"Purpose": "This cookie stores the selected locale",
+				"Impact": "Prevents PayPal from remembering the user's selected language or region preference",
+				"Reference": ["https://www.paypal.com/privacy-center"]
+			}
 		]
 	},
 	"li_gc": {
@@ -5510,51 +5518,51 @@
 		]
 	},
 	"x-pp-s": {
-		"paypal.com": [
+		".paypal.com": [
 			{
 				"Category": "Functional",
 				"Purpose": "This cookie is provided by PayPal and supports payment services on the website",
-				"Impact": "Nothing was found in the cookie database.",
+				"Impact": "Might disrupt the PayPal payment service on the website",
 				"Reference": ["https://www.paypal.com/privacy-center"]
 			}
 		]
 	},
 	"ts": {
-		"paypal.com": [
+		".paypal.com": [
 			{
 				"Category": "Functional",
 				"Purpose": "This cookie is generally provided by PayPal and supports payment services on the website",
-				"Impact": "Nothing was found in the cookie database.",
+				"Impact": "Might disrupt the PayPal payment service on the website",
 				"Reference": ["https://www.paypal.com/privacy-center"]
 			}
 		]
 	},
 	"ts_c": {
-		"paypal.com": [
+		".paypal.com": [
 			{
 				"Category": "Functional",
 				"Purpose": "This cookie is provided by Paypal. The cookie is used in context with transactions on the website.",
-				"Impact": "Nothing was found in the cookie database.",
+				"Impact": "Might disrupt or prevent transactions from being completed on the website",
 				"Reference": ["https://www.paypal.com/privacy-center"]
 			}
 		]
 	},
 	"tsrce": {
-		"paypal.com": [
+		".paypal.com": [
 			{
 				"Category": "Functional",
 				"Purpose": "This cookie is generally provided by PayPal and supports payment services on the website.",
-				"Impact": "Nothing was found in the cookie database.",
+				"Impact": "Might disrupt the PayPal payment service on the website",
 				"Reference": ["https://www.paypal.com/privacy-center"]
 			}
 		]
 	},
 	"nsid": {
-		"paypal.com": [
+		"www.paypal.com": [
 			{
 				"Category": "Functional",
 				"Purpose": "Cookie for fraud detection. When making a payment via PayPal these cookies are issued – PayPal session/security",
-				"Impact": "Nothing was found in the cookie database.",
+				"Impact": "Increases the risk of fraudulent activity on the website",
 				"Reference": ["https://www.paypal.com/privacy-center"]
 			}
 		]
@@ -5580,11 +5588,11 @@
 		]
 	},
 	"l7_az": {
-		"paypal.com": [
+		".paypal.com": [
 			{
 				"Category": "Functional",
 				"Purpose": "This cookie is necessary for the PayPal login function on the website.",
-				"Impact": "Nothing was found in the cookie database.",
+				"Impact": "Prevents users from logging in to their PayPal accounts on the website",
 				"Reference": ["https://www.paypal.com/privacy-center"]
 			}
 		]
